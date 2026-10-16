@@ -1,29 +1,40 @@
 #include "display.h"
 
+#include <android/asset_manager.h>
+#include <android/asset_manager_jni.h>
 #include <sys/system_properties.h>
 
 #include <algorithm>
 #include <atomic>
+#include <charconv>
 #include <cmath>
-#include <cstdlib>
+#include <string_view>
 
 #include "common.h"
 
 namespace display {
 namespace {
 
-// The game draws its UI from the 1280x800 asset set at native pixel size, so on screens taller
+// The SD game draws its UI from the 1280x800 asset set at native pixel size, so on screens taller
 // than ~1080 px it looks proportionally small. Rendering at this height and letting the display
 // hardware scale up restores the proportions the game was laid out for.
 constexpr int kDefaultRenderHeight = 1080;
+constexpr int kMaxRenderHeight = 8192;
+// Per-APK override written by tools/package_apk.py --render-height (e.g. 0 for the HD game, whose
+// 2048x1536 UI set already fits 1440p screens).
+constexpr const char* kRenderHeightAsset = "absw/render_height";
 constexpr int kCutoutShortEdges = 1;  // WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES
 
 std::atomic<float> g_input_scale{1.0f};
 
-int render_height() {
-    char v[PROP_VALUE_MAX] = {};
-    if (__system_property_get("debug.absw.render_height", v) > 0) return atoi(v);
-    return kDefaultRenderHeight;
+// A decimal height in [0, kMaxRenderHeight], optionally newline-terminated; 0 turns the cap off.
+bool parse_height(std::string_view s, int* out) {
+    if (!s.empty() && s.back() == '\n') s.remove_suffix(1);
+    int v = -1;
+    auto [end, ec] = std::from_chars(s.data(), s.data() + s.size(), v);
+    if (ec != std::errc() || end != s.data() + s.size() || v < 0 || v > kMaxRenderHeight) return false;
+    *out = v;
+    return true;
 }
 
 bool clear(JNIEnv* e, const char* what) {
@@ -73,6 +84,31 @@ void draw_under_cutout(JNIEnv* e, jobject act) {
     if (!clear(e, "setAttributes")) LOGI("display: drawing under the camera cutout");
 }
 
+bool apk_render_height(JNIEnv* e, jobject act, int* out) {
+    jobject jam = call_obj(e, act, "android/content/Context", "getAssets", "()Landroid/content/res/AssetManager;");
+    AAssetManager* am = jam ? AAssetManager_fromJava(e, jam) : nullptr;
+    AAsset* a = am ? AAssetManager_open(am, kRenderHeightAsset, AASSET_MODE_BUFFER) : nullptr;
+    if (!a) return false;
+    char buf[16];
+    int n = AAsset_read(a, buf, sizeof buf);
+    AAsset_close(a);
+    if (n > 0 && parse_height({buf, static_cast<size_t>(n)}, out)) return true;
+    LOGW("display: ignoring malformed asset %s", kRenderHeightAsset);
+    return false;
+}
+
+// debug.absw.render_height (adb shell setprop) wins over the APK's setting, which wins over the default.
+int render_height(JNIEnv* e, jobject act) {
+    char v[PROP_VALUE_MAX] = {};
+    int h;
+    if (int n = __system_property_get("debug.absw.render_height", v); n > 0) {
+        if (parse_height({v, static_cast<size_t>(n)}, &h)) return h;
+        LOGW("display: ignoring malformed debug.absw.render_height=%s", v);
+    }
+    if (apk_render_height(e, act, &h)) return h;
+    return kDefaultRenderHeight;
+}
+
 bool real_size(JNIEnv* e, jobject act, int* w, int* h) {
     jobject wm = call_obj(e, act, "android/app/Activity", "getWindowManager", "()Landroid/view/WindowManager;");
     if (!wm) return false;
@@ -89,9 +125,13 @@ bool real_size(JNIEnv* e, jobject act, int* w, int* h) {
 }
 
 void cap_render_height(JNIEnv* e, jobject native_app, jobject act) {
-    int target = render_height();
+    int target = render_height(e, act);
+    if (target == 0) {
+        LOGI("display: rendering at native resolution");
+        return;
+    }
     int w, h;
-    if (target <= 0 || !real_size(e, act, &w, &h)) return;
+    if (!real_size(e, act, &w, &h)) return;
     int lng = std::max(w, h), shrt = std::min(w, h);
     if (shrt <= target) return;
     float s = static_cast<float>(target) / static_cast<float>(shrt);

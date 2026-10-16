@@ -26,8 +26,9 @@ Display adaptation (`src/display.cpp`) runs on the UI thread from the `nativeCon
   `Display.getRealSize()`, which the game uses for layout.
 - The game draws its 1280x800 UI sprites at native pixel size, so on 1440p screens the UI looks small.
   The GL surface is therefore fixed at 1080 px high and scaled up by the display hardware, and touch
-  coordinates in `nativeInput` are scaled to match. `adb shell setprop debug.absw.render_height N`
-  changes this height; `0` turns it off.
+  coordinates in `nativeInput` are scaled to match. `0` turns this off (native resolution). The height
+  comes from, in order: `adb shell setprop debug.absw.render_height N`, the APK asset
+  `absw/render_height` (written by `package_apk.py --render-height N`), then the default of 1080.
 
 Lua display patches live in `bridge/lua/` as plain Lua source. The engine's Lua 5.1 includes its parser,
 so it accepts source text. At packaging time, `tools/build_lua_patches.py`:
@@ -55,6 +56,29 @@ with the progress, so they remain if the stable APK is installed again.
 `bridge/tools/make_release.sh` builds the phone APK with these patches. The packaging tools read
 `original/angry_birds_sw.apk`. If the original APK is lost, `tools/rebuild_base_apk.py` rebuilds an
 equivalent copy from a packaged APK plus the original 32-bit libraries.
+
+### Angry Birds Star Wars HD
+
+`make_release.sh hd` builds `dist/AngryBirdsStarWarsHD-arm64.apk` from `original/angry_birds_sw_hd.apk`
+(`com.rovio.angrybirdsstarwarshd.premium.iap` 1.5.13). It installs next to the SD game. It uses the same
+bridge without changes, because the HD and SD packages differ very little:
+
+- The engine has the same ELF layout, the same 315 imports and the same 92 DEX native methods. Only
+  46 bytes differ: one immediate in a byte store (`mov r3, #0` becomes `#1`, probably an HD flag), the
+  variant string (`SD` becomes `HD`), and two swapped 20-character keys (probably analytics).
+- The scripts are identical except `options.lua`, which adds `isHDVersion = true`. The AES key is the same.
+- The assets add an iPad Retina set (`images/2048x1536`) and drop the 480x320 and 854x480 sets.
+
+With `isHDVersion`, `selectAssetProfile` and `selectFontProfile` choose the 2048x1536 UI sprites and
+fonts when the screen is at least 2048 px wide. On a 1440p phone these fit the screen as designed, so the HD
+APK renders at native resolution (`--render-height 0`) and applies no Lua patches:
+
+- A 1080 px cap would draw the 1536-high UI about 40% too large.
+- The `EpisodeButton` x0.4 font scale is correct with the 2048x1536 fonts.
+- The tutorials and comics already fit at 1440 px.
+
+On screens narrower than 2048 px or shorter than about 1440 px, the game behaves as the original HD
+game would there. This has not been checked yet.
 
 Behaviour that is compatible on purpose with Android 4.x bionic:
 
@@ -89,6 +113,10 @@ log every import call.
   - progress saved across restarts.
 - arm64 build, running under the emulator's ARM translation:
   - the same flow up to "Level cleared". This covers function only, not speed.
+- HD, with the screen set to 3120x1440 (`wm size`):
+  - x86_64: native-resolution menu, planet and level selection, comic, tutorial, Tatooine 1-1
+    through "Level cleared", and progress saved across restarts;
+  - arm64 under translation: start-up and the main menu only.
 
 Not verified: running on real arm64 hardware (performance, Samsung firmware), in-app purchases
 (they fail because of the new signature), ads, camera.

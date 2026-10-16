@@ -14,6 +14,7 @@ import zipfile
 
 GUEST_SRC = "lib/armeabi-v7a/libAngryBirdsStarWars.so"
 DROP_PREFIXES = ("lib/armeabi/", "lib/armeabi-v7a/", "lib/x86/", "lib/mips/")
+RENDER_HEIGHT_ASSET = "assets/absw/render_height"  # read by bridge/src/display.cpp
 
 
 def is_old_signature(name):
@@ -59,14 +60,20 @@ def main():
     ap.add_argument("--build-tools", required=True, help="Android SDK build-tools directory")
     ap.add_argument("--keystore", required=True, help="local signing keystore (created if missing)")
     ap.add_argument("--overlay", help="directory whose files replace or add APK entries (e.g. Lua patches)")
+    ap.add_argument("--render-height", type=int, choices=range(0, 8193), metavar="0..8192",
+                    help="bridge render height for this APK (0 = native resolution); the bridge default is 1080")
     args = ap.parse_args()
     abis = args.abi or ["arm64-v8a"]
+
+    overlay = load_overlay(args.overlay)
+    if args.render_height is not None:
+        overlay[RENDER_HEIGHT_ASSET] = f"{args.render_height}\n".encode()
 
     out = pathlib.Path(args.out).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
     unsigned = out.with_suffix(".unsigned.apk")
     aligned = out.with_suffix(".aligned.apk")
-    build_unsigned(args.apk, args.bridge_out, abis, unsigned, load_overlay(args.overlay))
+    build_unsigned(args.apk, args.bridge_out, abis, unsigned, overlay)
 
     bt = pathlib.Path(args.build_tools)
     exe = ".exe" if os.name == "nt" else ""
