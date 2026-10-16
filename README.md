@@ -97,7 +97,16 @@ python bridge/tools/package_apk.py <original.apk> dist/AngryBirdsStarWars-arm64.
 ```
 
 `bridge/tools/dev_cycle.sh` and `play_level1.sh` run the emulator loop: build, install, launch,
-reach Tatooine 1-1, fire one bird and take screenshots.
+reach Tatooine 1-1, fire one bird and take screenshots. These scripts and `make_release.sh` write their
+logs, screenshots and test APKs to `test-out/`. That folder is never committed. `dist/` holds only the
+release APKs.
+
+## Private backup
+
+`main` (remote `origin`) holds only source. `tools/backup_workspace.sh` points branch `full` at a
+snapshot: the commit at HEAD plus the "local workspace" section of `.gitignore` (original APKs, decoded
+assets, keystore, release APKs, build outputs). Test and cache output is left out. Each snapshot
+has the previous one as a parent, so `git push full refs/heads/full:main` does not need `--force`.
 
 ## Debugging
 

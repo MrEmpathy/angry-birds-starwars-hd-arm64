@@ -13,6 +13,7 @@ OUT="$ROOT/dist/AngryBirdsStarWars-arm64.apk"
 W="/mnt/c/Users/nicox/Documents/absw-engine"
 LUA="$W/bridge/lua"
 EXTRA=()
+mkdir -p "$ROOT/test-out"
 case "${1:-}" in
   "") ;;
   unlocked) OUT="$ROOT/dist/AngryBirdsStarWars-arm64-unlocked.apk"; LUA="$LUA $W/bridge/lua-unlocked" ;;
@@ -21,9 +22,9 @@ case "${1:-}" in
   *) echo "unknown variant: $1" >&2; exit 2 ;;
 esac
 
-wsl.exe -e bash -lc "cd /tmp && ABIS=arm64-v8a bash $W/bridge/tools/build.sh" > "$ROOT/dist/build.log" 2>&1 \
-  || { grep -E "error|undefined|failed" "$ROOT/dist/build.log" | head -20; exit 1; }
-grep -E "arm64-v8a:" "$ROOT/dist/build.log"
+wsl.exe -e bash -lc "cd /tmp && ABIS=arm64-v8a bash $W/bridge/tools/build.sh" > "$ROOT/test-out/build.log" 2>&1 \
+  || { grep -E "error|undefined|failed" "$ROOT/test-out/build.log" | head -20; exit 1; }
+grep -E "arm64-v8a:" "$ROOT/test-out/build.log"
 rm -rf "$ROOT/bridge/out/overlay"
 mkdir -p "$ROOT/bridge/out/overlay"
 if [ -n "$LUA" ]; then

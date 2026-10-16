@@ -1,9 +1,10 @@
+# Local workspace: ignored on main, included in the private full backup (tools/backup_workspace.sh).
+# >>> local workspace
 # Rovio material and signing keys stay on this machine.
 /original/
 /decoded-assets/
 /keystore/
 *.apk
-*.idsig
 *.keystore
 *.jks
 
@@ -11,6 +12,14 @@
 /dist/
 /bridge/out/
 /bridge/gen/
+# <<< local workspace
 
+# Test, debugging and cache output: never committed, not even in the full backup.
+# The bridge/tools scripts write logs, screenshots and test APKs to test-out/; dist/ holds only
+# the release APKs.
+/test-out/
+/dist/*
+!/dist/AngryBirdsStarWars*.apk
+*.idsig
 __pycache__/
 *.pyc

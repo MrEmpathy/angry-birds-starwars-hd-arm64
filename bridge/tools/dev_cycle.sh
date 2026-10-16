@@ -6,14 +6,15 @@ ABI="${1:-x86_64}"
 WAIT="${2:-25}"
 ROOT="/c/Users/nicox/Documents/absw-engine"
 SDK="/c/Users/nicox/AppData/Local/Android/Sdk"
-APK="$ROOT/dist/absw-test-$ABI.apk"
+APK="$ROOT/test-out/absw-test-$ABI.apk"
 PKG="com.rovio.angrybirdsstarwars.ads.iap"
+mkdir -p "$ROOT/test-out"
 
-if ! wsl.exe -e bash -lc "cd /tmp && ABIS=$ABI TRACE=${TRACE:-OFF} bash /mnt/c/Users/nicox/Documents/absw-engine/bridge/tools/build.sh" > "$ROOT/dist/build.log" 2>&1; then
-  grep -E "error|undefined|failed" "$ROOT/dist/build.log" | head -20
+if ! wsl.exe -e bash -lc "cd /tmp && ABIS=$ABI TRACE=${TRACE:-OFF} bash /mnt/c/Users/nicox/Documents/absw-engine/bridge/tools/build.sh" > "$ROOT/test-out/build.log" 2>&1; then
+  grep -E "error|undefined|failed" "$ROOT/test-out/build.log" | head -20
   exit 1
 fi
-grep -E "bytes" "$ROOT/dist/build.log"
+grep -E "bytes" "$ROOT/test-out/build.log"
 rm -rf "$ROOT/bridge/out/overlay"
 wsl.exe -e bash -lc "python3 -I /mnt/c/Users/nicox/Documents/absw-engine/bridge/tools/build_lua_patches.py \
   /mnt/c/Users/nicox/Documents/absw-engine/original/angry_birds_sw.apk /mnt/c/Users/nicox/Documents/absw-engine/bridge/lua \
@@ -27,6 +28,6 @@ adb shell am force-stop "$PKG"
 adb logcat -c
 adb shell am start -n "$PKG/com.rovio.fusion.App" > /dev/null
 sleep "$WAIT"
-adb logcat -d -v brief > "$ROOT/dist/last-run.log"
-grep -E "absw|AndroidRuntime|F/libc|F/DEBUG.*(signal|#0[0-9]|Abort)|UnsatisfiedLink|E/rovio|Exception" "$ROOT/dist/last-run.log" \
+adb logcat -d -v brief > "$ROOT/test-out/last-run.log"
+grep -E "absw|AndroidRuntime|F/libc|F/DEBUG.*(signal|#0[0-9]|Abort)|UnsatisfiedLink|E/rovio|Exception" "$ROOT/test-out/last-run.log" \
   | grep -vE "ConnectivityService|NetworkMonitor" | head -${LINES_MAX:-60}
