@@ -45,6 +45,13 @@ iPad screens:
 - `menus/EpisodeButton.lua`: the planet score panel keeps the phone font scale. Before, it applied the
   x0.4 iPad-Retina shrink to any screen at least 2000 px wide.
 
+`bridge/lua-unlocked/game.lua` is only applied by `make_release.sh unlocked`, which writes
+`dist/AngryBirdsStarWars-arm64-unlocked.apk`. Each time the game starts, it marks the paid episodes
+(Path of the Jedi, Boba Fett Missions) as purchased and opens every level, bonus levels included. It
+also sets the four power-ups (Blaster Droid, Lightsaber Sling, Thermal Detonator, Clone Bird) to 999,
+the largest count the HUD shows. The Millennium Falcon count is not changed. These changes are saved
+with the progress, so they remain if the stable APK is installed again.
+
 `bridge/tools/make_release.sh` builds the phone APK with these patches. The packaging tools read
 `original/angry_birds_sw.apk`. If the original APK is lost, `tools/rebuild_base_apk.py` rebuilds an
 equivalent copy from a packaged APK plus the original 32-bit libraries.

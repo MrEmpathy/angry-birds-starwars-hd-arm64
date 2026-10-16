@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Turn bridge/lua/*.lua source patches into encrypted game assets.
 
-For each patch at <rel>.lua (relative to data/scripts) this writes, under <out>/assets/data/scripts:
+Several patch directories can be given (e.g. bridge/lua bridge/lua-unlocked); a script may be patched
+by only one of them. For each patch at <rel>.lua (relative to data/scripts) this writes, under
+<out>/assets/data/scripts:
   <rel>.lua       the patch source, packed like the game's scripts (LZMA, then AES-256-CBC)
   <rel>.orig.lua  the APK's original encrypted script, which the patch loads first
 The AES key is recovered from the user's APK at build time; nothing here contains it.
@@ -35,14 +37,21 @@ def pack(source: bytes, key: bytes) -> bytes:
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("apk")
-    ap.add_argument("patches", type=pathlib.Path, help="bridge/lua directory")
+    ap.add_argument("patches", type=pathlib.Path, nargs="+", help="patch directories (bridge/lua, ...)")
     ap.add_argument("out", type=pathlib.Path, help="output root (assets/... is created inside)")
     args = ap.parse_args()
 
+    patches = {}
+    for root in args.patches:
+        for patch in root.rglob("*.lua"):
+            rel = patch.relative_to(root).as_posix()
+            if rel in patches:
+                sys.exit(f"{rel} is patched in both {patches[rel]} and {patch}")
+            patches[rel] = patch
+
     with zipfile.ZipFile(args.apk) as apk:
         key = absw_assets.recover_key(apk)
-        for patch in sorted(args.patches.rglob("*.lua")):
-            rel = patch.relative_to(args.patches).as_posix()
+        for rel, patch in sorted(patches.items()):
             original = apk.read(SCRIPTS + rel)
             source = patch.read_bytes()
             packed = pack(source, key)
