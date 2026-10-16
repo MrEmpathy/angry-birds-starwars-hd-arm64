@@ -80,6 +80,27 @@ APK renders at native resolution (`--render-height 0`) and applies no Lua patche
 On screens narrower than 2048 px or shorter than about 1440 px, the game behaves as the original HD
 game would there. This has not been checked yet.
 
+`make_release.sh hd-unlocked` writes `dist/AngryBirdsStarWarsHD-arm64-unlocked.apk`. It adds
+`bridge/lua-paid/game.lua`, which unlocks only what the HD shop sells. It does not open content earned
+through progress. Each time the game starts, the patch:
+
+- Restores Path of the Jedi and Bounty Missions through the game's own purchase-restore callback
+  (`iapRestoreCallback`), the same path that runs when Google Play reports them as owned. The episode
+  buttons then open as after a real purchase.
+- Sets the four power-ups and the Millennium Falcon to 999.
+- Caps `SettingsWrapper:addMightyEagles` at 999. That function is the only code that raises the Falcon
+  count, so star rewards, level rewards and every other Falcon source stop at 999. Reward popups still
+  show the full amount.
+
+These stay as in the original game:
+
+- Base episodes still open through progress.
+- Levels inside every episode, the paid ones included, still open one by one.
+- Bonus levels still need stars. Boba Fett rocket packs and golden droids are not changed.
+
+The HD shop has no "Remove Ads" item, although the Play catalog lists one. The SD `unlocked` variant
+differs on purpose: it opens every level.
+
 Behaviour that is compatible on purpose with Android 4.x bionic:
 
 - `_ctype_` and `_tolower_tab_` are pointer variables.
