@@ -1,1 +1,8 @@
 * text=auto eol=lf
+
+# Local inputs and outputs are stored byte for byte when they are committed (full backup).
+/original/** -text
+/decoded-assets/** -text
+/keystore/** -text
+/dist/** -text
+/bridge/out/** -text
