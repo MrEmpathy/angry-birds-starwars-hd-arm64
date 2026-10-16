@@ -1,0 +1,208 @@
+INFO         | Android emulator version 35.4.9.0 (build_id 13025442) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\nicox\AppData\Local\Android\Sdk\system-images\android-36\google_apis_playstore\x86_64\
+I1016 15:32:12.637740   24032 opengles.cpp:285] android_startOpenglesRenderer: gpu info
+I1016 15:32:12.637780   24032 opengles.cpp:286] GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce GTX 1660 SUPER
+  Device ID: 21c4
+
+WARNING      | Please update the emulator to one that supports the feature(s): VulkanVirtualQueue
+INFO         | IPv4 server found: 192.168.1.1
+INFO         | Ignore IPv6 address: 90f6:645d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: 90f6:645d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: 90f6:645d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: c0fe:645d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: c0fe:645d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: c0fe:645d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: f806:655d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: f806:655d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: f806:655d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: e00c:655d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: e00c:655d:7802:0:30ea:645d:7802:0
+INFO         | Ignore IPv6 address: e00c:655d:7802:0:30ea:645d:7802:0
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `absw_test` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `absw_test` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `absw_test` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `absw_test` are met
+INFO         | Storing crashdata in: C:\Users\nicox\AppData\Local\Temp\\AndroidEmulator\emu-crash-35.4.9.db, detection is enabled for process: 1356
+INFO         | Guest Driver: Auto (ext controls)
+library_mode swiftshader_indirect gpu mode swiftshader_indirect
+INFO         | Initializing hardware OpenGLES emulation support
+INFO         | HealthMonitor disabled.
+INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+INFO         | Setting ICD filenames for the loader = C:\Users\nicox\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vk_swiftshader_icd.json;C:\Users\nicox\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vk_swiftshader_icd.json
+INFO         | SharedLibrary::open for [vulkan-1.dll]
+
+INFO         | SharedLibrary::open for [vulkan-1.dll]: not found in map, open for the first time
+
+INFO         | SharedLibrary::open for [vulkan-1.dll] (win32): call LoadLibraryA
+
+INFO         | SharedLibrary::open succeeded for [vulkan-1.dll]. File name: [C:\Windows\SYSTEM32\vulkan-1.dll]
+
+INFO         | Added library: vulkan-1.dll
+INFO         | Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.2.0
+INFO         | Supports id properties, got a vulkan device UUID
+INFO         | SharedLibrary::open for [libGLESv2.dll]: not found in map, open for the first time
+
+INFO         | SharedLibrary::open for [libGLESv2.dll] (win32): call LoadLibraryA
+
+INFO         | SharedLibrary::open succeeded for [libGLESv2.dll]. File name: [C:\Users\nicox\AppData\Local\Android\Sdk\emulator\lib64\gles_swiftshader\libGLESv2.dll]
+
+INFO         | SharedLibrary::open for [libEGL.dll]: not found in map, open for the first time
+
+INFO         | SharedLibrary::open for [libEGL.dll] (win32): call LoadLibraryA
+
+INFO         | SharedLibrary::open succeeded for [libEGL.dll]. File name: [C:\Users\nicox\AppData\Local\Android\Sdk\emulator\lib64\gles_swiftshader\libEGL.dll]
+
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: 2
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Graphics Adapter Vendor Google (Google InI1016 15:32:12.854527   24032 userspace-boot-properties.cpp:713] Userspace boot properties:
+I1016 15:32:12.854548   24032 userspace-boot-properties.cpp:717]   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+I1016 15:32:12.854554   24032 userspace-boot-properties.cpp:717]   androidboot.dalvik.vm.heapsize=576m
+I1016 15:32:12.854559   24032 userspace-boot-properties.cpp:717]   androidboot.debug.hwui.renderer=skiagl
+I1016 15:32:12.854563   24032 userspace-boot-properties.cpp:717]   androidboot.debug.sf.nobootanimation=1
+I1016 15:32:12.854568   24032 userspace-boot-properties.cpp:717]   androidboot.hardware=ranchu
+I1016 15:32:12.854572   24032 userspace-boot-properties.cpp:717]   androidboot.hardware.gltransport=pipe
+I1016 15:32:12.854577   24032 userspace-boot-properties.cpp:717]   androidboot.hardware.vulkan=ranchu
+I1016 15:32:12.854581   24032 userspace-boot-properties.cpp:717]   androidboot.logcat=*:V
+I1016 15:32:12.854586   24032 userspace-boot-properties.cpp:717]   androidboot.opengles.version=196608
+I1016 15:32:12.854590   24032 userspace-boot-properties.cpp:717]   androidboot.qemu=1
+I1016 15:32:12.854595   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.adb.pubkey=QAAAAB3riaHL0BdNmYMgepoMEngTrL5K8U9arQjZV9MV146XZ3uvW0JMSNwG5jlZTR5O7OIoXfIut9yrfl+YbA9BRLpcMdjXn1hTCmkx0eQoDLQTbXKAlqxbh4lBwRKMGbUyfuTbdtvJJROm5NwjcI0WqPpYFAUSrzN3BGT0HzL+9ETb+0/zUpkX+n0js7Ed9eczmzbbjyuQT7+gtp9HyMUU1orYP9EcdexhHzFxR7ajryfoVBP+S45TMhSvR+Cqk3yWjqcDPuYCBw3O5Cfrd25H7TbJBRwLJ88zQsDrS4dyaLYjRB/Wd/7fpEwgS4lLtcyRxhlq1iU4na1xiGEr391w6GXXyjPA6nh1Q+FZwq2P1ha4la78mIuaNYWDMDm+MYlSA6ZZxKElrzNZVkUNsyVk7Q1DXlsXb+hL8BF42ugifiDtQI8xLP/1KjmqwKiFo1QLSdDGc6uDzlr+XSeXOto72UFY4nvCNhlqUIr7fQG9WG3R5lsUARYNquOXtsnOX0m1XYtFYHIdhubMypVnL+ffZGJ807dCuiJnl+U2OZ3gOg4APZZ/aUGhTpu/FQVD9REp0cAuEWIFjjdVvkncG4YLsNSeucMyQwaDwRNbwI4WVO8xubydecTpLp7ddfvqDg3WcMKTDTgA9X6BcO59OE3tptQNa2/RIQwWCcEFNB2J+RfOMWUJagEAAQA= @unknown
+I1016 15:32:12.854601   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.avd_name=absw_test
+I1016 15:32:12.854605   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.camera_hq_edge_processing=0
+I1016 15:32:12.854610   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.camera_protocol_ver=1
+I1016 15:32:12.854614   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.cpuvulkan.version=4202496
+I1016 15:32:12.854619   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.gltransport.drawFlushInterval=800
+I1016 15:32:12.854623   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.gltransport.name=pipe
+I1016 15:32:12.854627   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.hwcodec.avcdec=2
+I1016 15:32:12.854631   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.hwcodec.hevcdec=2
+I1016 15:32:12.854636   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.hwcodec.vpxdec=2
+I1016 15:32:12.854640   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+I1016 15:32:12.854644   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.virtiowifi=1
+I1016 15:32:12.854648   24032 userspace-boot-properties.cpp:717]   androidboot.qemu.vsync=60
+I1016 15:32:12.854652   24032 userspace-boot-properties.cpp:717]   androidboot.serialno=EMULATOR35X4X9X0
+I1016 15:32:12.854657   24032 userspace-boot-properties.cpp:717]   androidboot.vbmeta.digest=c3fec574c004d42a1ba9007bad5d0e4e9018afeb9ec9c0424f1a6b4f033003fb
+I1016 15:32:12.854662   24032 userspace-boot-properties.cpp:717]   androidboot.vbmeta.hash_alg=sha256
+I1016 15:32:12.854671   24032 userspace-boot-properties.cpp:717]   androidboot.vbmeta.size=6720
+I1016 15:32:12.854676   24032 userspace-boot-properties.cpp:717]   androidboot.veritymode=enforcing
+c.)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Google SwiftShader)
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+INFO         | Graphics Device Extensions N/A
+INFO         | Sending adb public key [QAAAAB3riaHL0BdNmYMgepoMEngTrL5K8U9arQjZV9MV146XZ3uvW0JMSNwG5jlZTR5O7OIoXfIut9yrfl+YbA9BRLpcMdjXn1hTCmkx0eQoDLQTbXKAlqxbh4lBwRKMGbUyfuTbdtvJJROm5NwjcI0WqPpYFAUSrzN3BGT0HzL+9ETb+0/zUpkX+n0js7Ed9eczmzbbjyuQT7+gtp9HyMUU1orYP9EcdexhHzFxR7ajryfoVBP+S45TMhSvR+Cqk3yWjqcDPuYCBw3O5Cfrd25H7TbJBRwLJ88zQsDrS4dyaLYjRB/Wd/7fpEwgS4lLtcyRxhlq1iU4na1xiGEr391w6GXXyjPA6nh1Q+FZwq2P1ha4la78mIuaNYWDMDm+MYlSA6ZZxKElrzNZVkUNsyVk7Q1DXlsXb+hL8BF42ugifiDtQI8xLP/1KjmqwKiFo1QLSdDGc6uDzlr+XSeXOto72UFY4nvCNhlqUIr7fQG9WG3R5lsUARYNquOXtsnOX0m1XYtFYHIdhubMypVnL+ffZGJ807dCuiJnl+U2OZ3gOg4APZZ/aUGhTpu/FQVD9REp0cAuEWIFjjdVvkncG4YLsNSeucMyQwaDwRNbwI4WVO8xubydecTpLp7ddfvqDg3WcMKTDTgA9X6BcO59OE3tptQNa2/RIQwWCcEFNB2J+RfOMWUJagEAAQA= @unknown]
+WHPX on Windows 10.0.19045 detected.
+Windows Hypervisor Platform accelerator is operational
+netsimd I 10-16 18:32:12.946 daemon\src\rust_main.rs:98 - netsim artifacts path: "C:\\Users\\nicox\\AppData\\Local\\Temp\\netsimd"
+netsimd I 10-16 18:32:12.948 daemon\src\rust_main.rs:101 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "192.168.1.1,fdec:560f:6805:10::1",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+}
+pc_memory_init: above 4g size: 40000000
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: C:\Users\nicox\AppData\Local\Android\Sdk\emulator\lib\emulator_access.json
+WARNING      | *** Basic token auth should only be used by android-studio ***
+INFO         | The active JSON Web Key Sets can be found here: C:\Users\nicox\AppData\Local\Temp\avd\running\1356\jwks\ef5498f9-0c52-44d8-9f0d-d0cbd43cc9a5\active.jwk
+INFO         | Scanning C:\Users\nicox\AppData\Local\Temp\avd\running\1356\jwks\ef5498f9-0c52-44d8-9f0d-d0cbd43cc9a5 for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: C:\Users\nicox\AppData\Local\Temp\avd\running\pid_1356.ini
+INFO         | Setting display: 0 configuration to: 1080x2340, dpi: 420x420 
+INFO         | setDisplayActiveConfig 0
+##############################################################################
+##                        WARNING - ACTION REQUIRED                         ##
+##  Consider using the '-metrics-collection' flag to help improve the       ##
+##  emulator by sending anonymized usage data. Or use the '-no-metrics'     ##
+##  flag to bypass this warning and turn off the metrics collection.        ##
+##  In a future release this warning will turn into a one-time blocking     ##
+##  prompt to ask for explicit user input regarding metrics collection.     ##
+##                                                                          ##
+##  Please see '-help-metrics-collection' for more details. You can use     ##
+##  '-metrics-to-file' or '-metrics-to-console' flags to see what type of   ##
+##  data is being collected by emulator as part of usage statistics.        ##
+##############################################################################
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | IPv4 server found: 192.168.1.1
+INFO         | Ignore IPv6 address: 904c:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: 904c:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: 904c:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: c054:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: c054:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: c054:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: f85c:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: f85c:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: f85c:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: e062:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: e062:8da1:7902:0:3040:8da1:7902:0
+INFO         | Ignore IPv6 address: e062:8da1:7902:0:3040:8da1:7902:0
+INFO         | IPv4 server found: 192.168.1.1
+INFO         | Ignore IPv6 address: a05c:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: a05c:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: a05c:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: d064:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: d064:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: d064:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: 86d:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: 86d:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: 86d:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: f072:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: f072:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: f072:e982:7902:0:4050:e982:7902:0
+INFO         | IPv4 server found: 192.168.1.1
+INFO         | Ignore IPv6 address: a05c:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: a05c:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: a05c:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: d064:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: d064:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: d064:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: 86d:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: 86d:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: 86d:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: f072:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: f072:e982:7902:0:4050:e982:7902:0
+INFO         | Ignore IPv6 address: f072:e982:7902:0:4050:e982:7902:0
+INFO         | Boot completed in 32272 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+ERROR        | adb protocol fault (couldn't read status length)
+INFO         | Wait for emulator (pid 1356) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+WARNING      | Not saving state: RAM not mapped as shared

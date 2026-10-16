@@ -1,0 +1,1555 @@
+--------- beginning of main
+D/SafetySourceDataValidat(  686): No cert check requested for package com.google.android.permissioncontroller
+W/system_server(  686): Suspending all threads took: 34.327ms
+W/gle.android.gms( 8997): Verification of void m32.nvy.<clinit>() took 147.853ms (250.25 bytecodes/s) (0B arena alloc)
+W/FuseDaemon( 1786): Reducing the number of considered missed Gc histogram windows from 113 to 100
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Settings sectionName: S
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Photos sectionName: P
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Battery sectionName: B
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Chrome sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Gmail sectionName: G
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Drive sectionName: D
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Clock sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Contacts sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Calendar sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Maps sectionName: M
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: YouTube Music sectionName: Y
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: YouTube sectionName: Y
+D/MediaProvider( 1786): Deleted 0 Android/media items belonging to com.rovio.angrybirdsstarwars.ads.iap on /data/user/0/com.google.android.providers.media.module/databases/external.db
+I/Role    (  686): com.google.android.gms not qualified for android.app.role.SYSTEM_DEPENDENCY_INSTALLER due to missing RequiredComponent{mIntentFilterData=IntentFilterData{mAction='android.content.pm.action.INSTALL_DEPENDENCY', mCategories='[]', mDataScheme='null', mDataType='null'}, mMinTargetSdkVersion=1, mFlags='0', mPermission='android.permission.BIND_DEPENDENCY_INSTALLER', mQueryFlags=0, mMetaData=[]}
+E/RoleControllerServiceImpl(  686): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Google sectionName: G
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Android System Intelligence sectionName: A
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Digital Wellbeing sectionName: D
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Conversations sectionName: C
+W/VvmPkgInstalledRcvr( 1293): carrierVvmPkgAdded: carrier vvm packages doesn't contain com.rovio.angrybirdsstarwars.ads.iap
+I/system_server(  686): ThreadFlipBegin blocked for 22.053ms
+D/b/387844520( 1396): getOutlineOffsetX: measured width = 0, mNormalizedIconSize = 159, last updated width = 0
+--------- beginning of system
+W/Looper  (  686): Drained
+I/system_server(  686): AssetManager2(0x7b4275cd1ad8) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c1dfd8) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c0bd38) locale list changing from [] to [en-US]
+I/system_server(  686): IncrementDisableThreadFlip blocked for 59.758ms
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c1bd78) locale list changing from [] to [en-US]
+I/system_server(  686): IncrementDisableThreadFlip blocked for 45.662ms
+W/ParceledListSlice(  686): Element #26 is 19620 bytes.
+W/ParceledListSlice(  686): Element #27 is 19656 bytes.
+W/ParceledListSlice(  686): Element #28 is 19496 bytes.
+W/ParceledListSlice(  686): Element #29 is 19584 bytes.
+W/ParceledListSlice(  686): Element #30 is 19520 bytes.
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c15658) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c1ef78) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c1ff18) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c291f8) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c26318) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c1f298) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c1dcb8) locale list changing from [] to [en-US]
+W/achh    ( 5398): Abort, client detached.
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c27f38) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c25378) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c194d8) locale list changing from [] to [en-US]
+I/system_server(  686): AssetManager2(0x7b4275ce8238) locale list changing from [] to [en-US]
+I/ogle.android.as( 1827): AssetManager2(0x7b4275c15978) locale list changing from [] to [en-US]
+I/AiAiEcho( 1827): EchoSearch: WidgetFetcherImpl is initialized with [34] widgets [reason=package added for userId: 0]
+E/RoleControllerServiceImpl(  686): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+I/FuseDaemon( 1786): Successfully deleted rows in leveldb for owner_id:  and ownerPackageIdentifier: com.rovio.angrybirdsstarwars.ads.iap::0
+I/ProximityAuth( 8997): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.rovio.angrybirdsstarwars.ads.iap
+D/MediaGrants( 1786): Removed 0 media_grants for 0 user for [com.rovio.angrybirdsstarwars.ads.iap]. Reason: Package orphaned
+I/system_server(  686): AssetManager2(0x7b4275c9b938) locale list changing from [] to [en-US]
+I/MediaProvider( 1786): End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+I/AppsFilter(  686): interaction: PackageSetting{27b576f com.android.microdroid.empty_payload/10203} -> PackageSetting{b7c7641 com.rovio.angrybirdsstarwars.ads.iap/10217} BLOCKED
+W/GCM     ( 8997): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+W/NetworkScheduler( 8997): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+W/ActivityTaskManager(  686): callingPackage for (uid=2000, pid=10948) has no WPC
+W/SignedPackage(  686): Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+I/system_server(  686): Background concurrent mark compact GC freed 19MB AllocSpace bytes, 55(1436KB) LOS objects, 41% free, 33MB/57MB, paused 41.209ms,3.455ms total 576.242ms
+I/system_server(  686): AssetManager2(0x7b4275c999f8) locale list changing from [] to [en-US]
+V/GrammaticalInflectionUtils(  686): AttributionSource: android.content.AttributionSource@f6e52d3f does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+W/System  (  686): A resource failed to call close. 
+W/System  (  686): A resource failed to call close. 
+W/System  (  686): A resource failed to call close. 
+W/System  (  686): A resource failed to call close. 
+W/System  (  686): A resource failed to call close. 
+D/CarrierSvcBindHelper( 1293): onHandleForceStop: [com.rovio.angrybirdsstarwars.ads.iap]
+W/OptProp (  686): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+W/OptProp (  686): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+W/OptProp (  686): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+W/OptProp (  686): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+D/CarrierSvcBindHelper( 1293): No carrier app for: 0
+I/Bugle   ( 7984): BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of cump@deedfc8
+D/ActivityManager(  686): sync unfroze 3528 com.google.android.packageinstaller for 3
+W/OptProp (  686): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+I/incfs-mounts( 8997): [incfs] Loaded incremental-fs mount info: 1 instances, 2 mount points
+I/ActivityTaskManager(  686): START u0 {flg=0x10000000 xflg=0x5 cmp=com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+V/WindowManagerShell( 1126): Transition requested (#64): android.os.BinderProxy@722118f TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=23 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App } baseActivity=ComponentInfo{com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} topActivity=ComponentInfo{com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} origActivity=null realActivity=ComponentInfo{com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} numActivities=1 lastActiveTime=2127470 supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@e753c1c} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{9e35025 com.rovio.fusion.App} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(71, 942 - 1009, 1398) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2277) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 64 }
+D/ShellSplitScreen( 1126): logExit: no-op, mLoggerSessionId is null
+D/ActivityThread( 3528): Package [com.android.vending] reported as REPLACED, but missing application info. Assuming REMOVED.
+I/gle.android.gms( 8997): AssetManager2(0x7b4275c07b98) locale list changing from [] to [en-US]
+D/ActivityThread( 3528): Package [com.android.vending] reported as REPLACED, but missing application info. Assuming REMOVED.
+I/AppsFilter(  686): interaction: PackageSetting{27b576f com.android.microdroid.empty_payload/10203} -> PackageSetting{4ba6a2b com.rovio.angrybirdsstarwars.ads.iap/10217} BLOCKED
+D/ActivityThread( 3528): Package [com.google.android.gms] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.google.android.gms] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+I/BpBinder(  550): onLastStrongRef automatically unlinking death recipients: 
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3528): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+I/incfs-mounts( 1126): [incfs] Loaded incremental-fs mount info: 1 instances, 2 mount points
+I/ndroid.systemui( 1126): AssetManager2(0x7b4275c340f8) locale list changing from [] to [en-US]
+D/PersistedStoragePackageUninstalledReceiver( 1129): Received android.intent.action.PACKAGE_FULLY_REMOVED for com.rovio.angrybirdsstarwars.ads.iap for u0
+W/HWUI    ( 1126): Image decoding logging dropped!
+D/WindowManagerShell( 1126): onFixedRotationStarted: null, state=PipTransitionState(mState=undefined, mInSwipePipToHomeTransition=false)
+V/GrammaticalInflectionUtils(  686): AttributionSource: android.content.AttributionSource@f6e52d3f does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+I/incfs-dataloaderconnector(  686): Reported status back to IncrementalService. DataLoaderId=23, status=0
+D/CoreBackPreview(  686): Window{491f6f7 u0 Splash Screen com.rovio.angrybirdsstarwars.ads.iap}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@662e5a6, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+I/SafetyLabelChangedBroadcastReceiver( 1129): received broadcast packageName: com.rovio.angrybirdsstarwars.ads.iap, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+D/PackageUpdatedTask( 1396): Package updated: mOp=UPDATE packages=[com.rovio.angrybirdsstarwars.ads.iap], user=UserHandle{0}
+D/Zygote  (  475): Forked child process 10954
+V/WindowManagerShell( 1126): onTransitionReady(transaction=2946347568480)
+V/WindowManagerShell( 1126): onTransitionReady (#64) android.os.BinderProxy@722118f: {id=64 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+V/WindowManagerShell( 1126):         {m=OPEN f=NONE leash=Surface(name=Task=23)/@0x22c664e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 endFixedRotation=1 taskParent=-1},
+V/WindowManagerShell( 1126):         {m=TO_BACK f=NONE leash=Surface(name=Task=18)/@0x267836f sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 taskParent=-1}
+V/WindowManagerShell( 1126):     ]}
+V/WindowManagerShell( 1126): Playing animation for (#64) android.os.BinderProxy@722118f@0
+V/ShellRecents( 1126): RecentsTransitionHandler.startAnimation: no controller found
+V/WindowManagerShell( 1126): Transition doesn't have explicit remote, search filters for match for {id=64 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=23)/@0x22c664e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 endFixedRotation=1 taskParent=-1},{m=TO_BACK f=NONE leash=Surface(name=Task=18)/@0x267836f sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 taskParent=-1}]}
+V/WindowManagerShell( 1126):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@c7474db windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@592ab78, appThread = android.app.IApplicationThread$Stub$Proxy@681c251, debugName = overlayBackTransition }}
+V/WindowManagerShell( 1126):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@a1a9ab6, appThread = android.app.IApplicationThread$Stub$Proxy@73b83b7, debugName = LauncherToDream }}
+V/WindowManagerShell( 1126):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d030724, appThread = android.app.IApplicationThread$Stub$Proxy@4f328d, debugName = QuickstepLaunchHome }}
+V/WindowManagerShell( 1126):  Delegate animation for (#64) to null
+V/WindowManagerShell( 1126): start default transition animation, info = {id=64 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=23)/@0x22c664e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 endFixedRotation=1 taskParent=-1},{m=TO_BACK f=NONE leash=Surface(name=Task=18)/@0x267836f sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 taskParent=-1}]}
+I/SatelliteAppTracker( 1293): onPackageModified : com.rovio.angrybirdsstarwars.ads.iap
+D/ControlsListingControllerImpl( 1126): ServiceConfig reloaded, count: 0
+D/CarrierSvcBindHelper( 1293): onPackageModified: com.rovio.angrybirdsstarwars.ads.iap
+I/s.nexuslauncher( 1396): AssetManager2(0x7b4275c00e38) locale list changing from [] to [en-US]
+W/HWUI    ( 1396): Image decoding logging dropped!
+W/ActivityManager(  686): Slow operation: 78ms so far, now at startProcess: returned from zygote!
+W/Looper  (  686): Slow dispatch took 103ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@442512c m=0
+I/tarwars.ads.iap(10954): Using CollectorTypeCMC GC.
+W/tarwars.ads.iap(10954): Unexpected CPU variant for x86: x86_64.
+W/tarwars.ads.iap(10954): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+E/tarwars.ads.iap(10954): Not starting debugger since process cannot load the jdwp agent.
+D/BackgroundInstallControlService(  686): Package event received: 0
+D/nativeloader(10954): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+D/CarrierSvcBindHelper( 1293): No carrier app for: 0
+D/ShortcutService(  686): received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 (has extras) }
+I/AiAiEcho( 1827): AppIndexer Package:[com.rovio.angrybirdsstarwars.ads.iap] UserProfile:[0] Enabled:[true].
+I/AiAiEcho( 1827): AppFetcherImplV2 updateApps package:[com.rovio.angrybirdsstarwars.ads.iap], userId:[0], reason:[package is updated.].
+V/WindowManagerShell( 1126): loadAnimation: anim=android.view.animation.AnimationSet@6dcac81 animAttr=0x9 type=OPEN isEntrance=false
+E/SmsApplication( 1293): com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+D/ShortcutService(  686): changing package: com.rovio.angrybirdsstarwars.ads.iap userId=0
+V/WindowManagerShell( 1126): loadAnimation: anim=android.view.animation.AnimationSet@ab5db14 animAttr=0x8 type=OPEN isEntrance=true
+I/system_server(  686): AssetManager2(0x7b4275ce8558) locale list changing from [] to [en-US]
+I/system_server(  686): AssetManager2(0x7b4275c9c8d8) locale list changing from [] to [en-US]
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 10145, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+W/ActivityManager(  686): Slow operation: 159ms so far, now at startProcess: done updating battery stats
+W/ActivityManager(  686): Slow operation: 159ms so far, now at startProcess: building log message
+I/ActivityManager(  686): Start proc 10954:com.rovio.angrybirdsstarwars.ads.iap/u0a217 for next-top-activity {com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App}
+W/ActivityManager(  686): Slow operation: 161ms so far, now at startProcess: starting to update pids map
+V/WindowManagerShell( 1126):  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e5c1ddb
+I/ActivityManager(  686): ProcessObserver broadcast disabled
+W/ActivityManager(  686): Slow operation: 169ms so far, now at startProcess: done updating pids map
+V/WindowManager(  686): Sent Transition (#64) createdAt=10-15 05:13:56.824 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=23 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App } baseActivity=ComponentInfo{com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} topActivity=ComponentInfo{com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} origActivity=null realActivity=ComponentInfo{com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App} numActivities=1 lastActiveTime=2127470 supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{c8f4a24 Task{fc8b49c #23 type=standard A=10217:com.rovio.angrybirdsstarwars.ads.iap nonResizable}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{d71b98d com.rovio.fusion.App} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(71, 942 - 1009, 1398) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2277) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 64 }
+V/WindowManager(  686):     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+V/WindowManager(  686):     info={id=64 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+V/WindowManager(  686):         {WCT{RemoteToken{c8f4a24 Task{fc8b49c #23 type=standard A=10217:com.rovio.angrybirdsstarwars.ads.iap nonResizable}}} m=OPEN f=NONE leash=Surface(name=Task=23)/@0x103e500 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 endFixedRotation=1 taskParent=-1},
+V/WindowManager(  686):         {WCT{RemoteToken{2166c98 Task{b3f3dd #18 type=standard A=10154:google.android.task.calendar}}} m=TO_BACK f=NONE leash=Surface(name=Task=18)/@0x12ffffe sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 taskParent=-1}
+V/WindowManager(  686):     ]}
+D/BackgroundInstallControlService(  686): Package event received: 0
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+I/Finsky  ( 8200): [2] Memory trim requested to level 40
+I/Finsky  ( 8200): [2] Flushing in-memory image cache
+I/Finsky  ( 8200): [2] Memory trim requested to level 40
+I/Finsky  ( 8200): [2] Flushing in-memory image cache
+I/Finsky  ( 8200): [2] annt - Received: android.intent.action.PACKAGE_ADDED, [LQFwg9ePyIXwA6dOOuVrD9yDqylqWlLZKRkg80mnW2M]
+D/BackgroundInstallControlService(  686): Package event received: 0
+I/PermissionControllerServiceImpl( 1129): Updating user sensitive for uid 10217
+D/AppSearchAppsIndexerManagerS(  686): userid in package receiver: 10217
+D/ImsResolver( 1293): maybeAddedImsService, packageName: com.rovio.angrybirdsstarwars.ads.iap
+V/ImsResolver( 1293): searchForImsServices: package=com.rovio.angrybirdsstarwars.ads.iap, users=[UserHandle{0}]
+V/ImsResolver( 1293): searchForImsServices: package=com.rovio.angrybirdsstarwars.ads.iap, users=[UserHandle{0}]
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system/framework/android.test.base.jar
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+I/Finsky  ( 8200): [206] [ContentSync] finished, scheduled=false
+D/SatelliteController( 1293): packageStateChanged: package:com.rovio.angrybirdsstarwars.ads.iap DefaultSmsPackageName:com.google.android.apps.messaging
+V/SatelliteController( 1293): Neither SMS or SatelliteGateway package
+E/SmsApplication( 1293): com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 10145, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+W/AppOpService(  686): Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+D/SatelliteAccessController( 1293): Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+D/SatelliteController( 1293): getSelectedSatelliteSubId: subId=-1
+D/SatelliteAccessController( 1293): supportedMsgApps:com.google.android.apps.messaging
+I/Finsky  ( 8200): [2] Do not start WearSupportService due to Wear service optimization
+I/Finsky  ( 8200): [2] DTU: Received onPackageAdded, replacing: false
+I/Finsky:background( 7004): [2] Memory trim requested to level 40
+I/system_server(  686): AssetManager2(0x7b4275c60978) locale list changing from [] to [en-US]
+I/Finsky  ( 8200): [2] Clearing split related stale data.
+I/Finsky:background( 7004): [2] Memory trim requested to level 40
+I/Finsky:background( 7004): [2] annj - Received: android.intent.action.PACKAGE_ADDED, [LQFwg9ePyIXwA6dOOuVrD9yDqylqWlLZKRkg80mnW2M]
+W/HWUI    ( 1396): Image decoding logging dropped!
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Angry Birds sectionName: A
+I/Finsky  ( 8200): [2] annt - Received: android.intent.action.PACKAGE_CHANGED, [LQFwg9ePyIXwA6dOOuVrD9yDqylqWlLZKRkg80mnW2M]
+I/Auth    ( 8997): (REDACTED) [SupervisedAccountIntentOperation] onHandleIntent: %s
+I/Blockstore( 8997): (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+I/Blockstore( 8997): [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+I/Finsky  ( 8200): [48] SCH: Received scheduling request: Id: 37-5, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+D/AllAppsStore( 1396): setApps: apps.length=20
+D/AllAppsStore( 1396): notifyUpdate: notifying listeners
+D/ActivityAllAppsContainerView( 1396): onAppsUpdated; number of apps: 20
+D/ActivityAllAppsContainerView( 1396): rebindAdapters: force: false
+D/ActivityAllAppsContainerView( 1396): rebindAdapters: Not needed.
+D/StatsLog( 1396): LAUNCHER_ALLAPPS_COUNT
+D/AlphabeticalAppsList( 1396): Clearing FastScrollerSections.
+D/AlphabeticalAppsList( 1396): Adding apps with sections. HasPrivateApps: false
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: A with appInfoTitle: Angry Birds
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: D with appInfoTitle: Drive
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+D/AlphabeticalAppsList( 1396): Adding FastScrollSection duplicate to scroll to the bottom.
+D/AlphabeticalAppsList( 1396): Clearing FastScrollerSections.
+D/AlphabeticalAppsList( 1396): Adding apps with sections. HasPrivateApps: false
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: A with appInfoTitle: Angry Birds
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: D with appInfoTitle: Drive
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+D/AlphabeticalAppsList( 1396): addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+D/AlphabeticalAppsList( 1396): Adding FastScrollSection duplicate to scroll to the bottom.
+D/b/387844520( 1396): getOutlineOffsetX: measured width = 0, mNormalizedIconSize = 159, last updated width = 0
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+I/Finsky:background( 7004): [2] annj - Received: android.intent.action.PACKAGE_CHANGED, [LQFwg9ePyIXwA6dOOuVrD9yDqylqWlLZKRkg80mnW2M]
+D/nativeloader(10954): Configuring clns-9 for other apk /data/app/~~k7xUSxC1v6529KyC5K_28Q==/com.rovio.angrybirdsstarwars.ads.iap-0jpVgKnkevdXWwn0dSWl4A==/base.apk. target_sdk_version=26, uses_libraries=, library_path=/data/app/~~k7xUSxC1v6529KyC5K_28Q==/com.rovio.angrybirdsstarwars.ads.iap-0jpVgKnkevdXWwn0dSWl4A==/lib/x86_64:/data/app/~~k7xUSxC1v6529KyC5K_28Q==/com.rovio.angrybirdsstarwars.ads.iap-0jpVgKnkevdXWwn0dSWl4A==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.rovio.angrybirdsstarwars.ads.iap
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275befe58) locale list changing from [] to [en-US]
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+I/Finsky:background( 7004): [174] Wrote row to frosting DB: 328
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+I/Finsky  ( 8200): [47] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+V/GraphicsEnvironment(10954): Currently set values for:
+V/GraphicsEnvironment(10954):   angle_gl_driver_selection_pkgs=[]
+V/GraphicsEnvironment(10954):   angle_gl_driver_selection_values=[]
+V/GraphicsEnvironment(10954): com.rovio.angrybirdsstarwars.ads.iap is not listed in per-application setting
+V/GraphicsEnvironment(10954): ANGLE allowlist from config: 
+V/GraphicsEnvironment(10954): com.rovio.angrybirdsstarwars.ads.iap is not listed in ANGLE allowlist or settings, returning default
+V/GraphicsEnvironment(10954): Neither updatable production driver nor prerelease driver is supported.
+W/OptProp (  686): Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+I/Finsky:background( 7004): [61] RECEIVER_PACKAGE_MONITOR_BACKGROUND#logWorkEndAndFinishGoAsync: SUCCESS
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bee558) locale list changing from [] to [en-US]
+I/DisplayManager(10954): Choreographer implicitly registered for the refresh rate.
+V/SafetySourceDataValidat(  686): Package: com.android.vending has expected signature
+I/Finsky:background( 7004): [174] Wrote row to frosting DB: 329
+V/SafetySourceDataValidat(  686): Package: com.android.vending has expected signature
+I/Finsky  ( 8200): [52] WM::SCH: Logging work initialize for 37-5
+I/Dck     ( 8997): (REDACTED) disableDckSupport: %s
+W/Looper  (  686): Slow dispatch took 154ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=null m=116
+I/Fitness ( 8997): (REDACTED) OnPackageChangedOperation got intent: %s
+W/Looper  (  686): Slow delivery took 212ms main app=system_server main=true group=FOREGROUND h=com.android.server.alarm.AlarmManagerService$AlarmHandler c=null m=5
+W/AppInstallOperation( 8997): FDL Migration::InstallIntentOperation by FDL Module [CONTEXT service_id=77 ]
+I/FraudProtectUtils( 8997): Not in testing population, skipping local test bank apps. [CONTEXT service_id=469 ]
+I/FraudProtectUtils( 8997): (REDACTED) Latest bank app list size: %d, %s isBankApp: false
+I/PackageInstallIntentOp( 8997): (REDACTED) Package %s is not a bank app. Skipping updates.
+E/Dck     ( 8997): Could not get ProviderInfo when resolving the content provider authority. [CONTEXT service_id=289 ]
+I/Dck     ( 8997): Samsung Content Provider failed app verification [CONTEXT service_id=289 ]
+I/Dck     ( 8997): [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+I/Dck     ( 8997): [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+I/system_server(  686): AssetManager2(0x7b4275cd7bb8) locale list changing from [] to [en-US]
+I/Finsky:background( 7004): [174] Wrote row to frosting DB: 330
+I/Finsky  ( 8200): [60] SCH: Scheduling phonesky job Id: 37-5, CT: 1792041237211, Constraints: [{ L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }, { L: 0, D: 0, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+I/Finsky  ( 8200): [58] SCH: Scheduling 1 system job(s)
+I/Finsky  ( 8200): [58] SCH: Scheduling expedited system job 9301
+I/Finsky:background( 7004): [174] Wrote row to frosting DB: 331
+I/Dck     ( 8997): (REDACTED) [WirelessCapabilitiesFeatures] returned wcc: %s
+I/Dck     ( 8997): Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+I/Dck     ( 8997): Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+I/Dck     ( 8997): Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+I/EGL_emulation(10954): Opening libGLESv1_CM_emulation.so
+I/EGL_emulation(10954): Opening libGLESv2_emulation.so
+D/BackgroundInstallControlService(  686): Package event received: 0
+D/BackgroundInstallControlService(  686): Package event received: 0
+W/HWUI    (10954): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/system_server(  686): AssetManager2(0x7b4275c26c78) locale list changing from [] to [en-US]
+E/ashmem  (10954): Pinning is deprecated since Android Q. Please use trim or other methods.
+I/Bugle   ( 7984): BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of cump@deedfc8
+W/AppWarnings(  686): Showing DeprecatedTargetSdkVersionDialog for package com.rovio.angrybirdsstarwars.ads.iap
+V/AccessibilityManagerService(  686): onUserStateChangedLocked for userId: 0, forceUpdate: false
+W/MagnificationConnectionManager(  686): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+I/NearbyDiscovery( 8997): (REDACTED) processGrantSlicePermission: %s
+I/Finsky:background( 7004): [61] RECEIVER_ENGAGE_PACKAGE_CHANGED#logWorkEndAndFinishGoAsync: SKIPPED_PRECONDITIONS_UNMET
+I/Finsky:background( 7004): [2] Memory trim requested to level 40
+I/Finsky  ( 8200): [2] Memory trim requested to level 40
+I/Finsky  ( 8200): [2] Flushing in-memory image cache
+W/Looper  (  686): Slow dispatch took 232ms android.ui app=system_server main=false group=TOP_APP h=com.android.server.wm.AppWarnings$UiHandler c=null m=5
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+D/nativeloader(10954): Load /data/app/~~k7xUSxC1v6529KyC5K_28Q==/com.rovio.angrybirdsstarwars.ads.iap-0jpVgKnkevdXWwn0dSWl4A==/lib/x86_64/libAngryBirdsStarWars.so using class loader ns clns-9 (caller=/data/app/~~k7xUSxC1v6529KyC5K_28Q==/com.rovio.angrybirdsstarwars.ads.iap-0jpVgKnkevdXWwn0dSWl4A==/base.apk): ok
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+I/absw    (10954): absw ARM32 bridge starting (host x86_64)
+I/absw    (10954): arena base=0x7b3e7fff0000 host_page=4096
+I/absw    (10954): JNI bridge ready: env=0x209f0 vm=0x209f4, 79 native trampolines
+I/absw    (10954): loaded libabsw_rt.so at 0x01000000 size 0x8000, 20 exports, exidx 19
+I/absw    (10954): libabsw_rt.so: ran 0 constructors
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+D/CoreBackPreview(  686): Window{f67d179 u0 DeprecatedTargetSdkVersionDialog}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@5d2cf04, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+W/Looper  (  686): Drained
+I/system_server(  686): AssetManager2(0x7b4275c60018) locale list changing from [] to [en-US]
+I/system_server(  686): AssetManager2(0x7b4275c5aed8) locale list changing from [] to [en-US]
+I/absw    (10954): loaded libAngryBirdsStarWars.so at 0x01020000 size 0x7c3000, 896 exports, exidx 15393
+V/WindowManagerShell( 1126): Transition animation finished (aborted=false), notifying core (#64) android.os.BinderProxy@722118f@0
+V/WindowManager(  686): Finish Transition (#64): created at 10-15 05:13:56.824 collect-started=0.066ms request-sent=13.946ms started=41.948ms ready=152.791ms sent=161.734ms commit=106.793ms finished=775.14ms
+I/WindowManager(  686): Display id=0 rotation changed to 1 from 0, lastOrientation=0 userRotationMode=0 userRotation=0 lastSensorRotation=0
+D/VRI[MinuteMaidActivity]( 9517): visibilityChanged oldVisibility=true newVisibility=false
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+V/WindowManagerShell( 1126): Track 0 became idle
+V/WindowManagerShell( 1126): All active transition animations finished
+V/WindowManagerShell( 1126): Transition requested (#65): android.os.BinderProxy@370c97b TransitionRequestInfo { type = CHANGE, triggerTask = null, pipChange = null, remoteTransition = null, displayChange = DisplayChange { displayId = 0, startAbsBounds = null, endAbsBounds = null, startRotation = 0, endRotation = 1, physicalDisplayChanged = false }, flags = 0, debugId = 65 }
+D/WindowManagerShell( 1126): PipTaskOrganizer: Skip onMovementBoundsChanged on rotation change InSwipePipToHomeTransition=false mWaitForFixedRotation=true getTransitionState=0
+D/BrightnessThermalClamper(  686): Thermal status observer already started
+I/ActivityTaskManager(  686): Config changes=20000480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1577 fontWeightAdjustment=0}
+D/BackgroundInstallControlService(  686): Package event received: 0
+I/Fitness ( 8997): (REDACTED) FitCleanupIntentOperation received Intent %s
+I/BpBinder(  550): onLastStrongRef automatically unlinking death recipients: 
+I/WindowManager(  686): Override config changes=20000480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1577 fontWeightAdjustment=0} for displayId=0
+D/WindowManagerShell( 1126): onFixedRotationFinished: null, state=PipTransitionState(mState=undefined, mInSwipePipToHomeTransition=false)
+V/ShellDragAndDrop( 1126): Display changed: 0
+I/Finsky  ( 8200): [2] SCH: job service start with id 9301.
+I/system_server(  686): AssetManager2(0x7b4275cd9198) locale list changing from [] to [en-US]
+V/WindowManager(  686): Sent Transition (#65) createdAt=10-15 05:13:57.625 via request=TransitionRequestInfo { type = CHANGE, triggerTask = null, pipChange = null, remoteTransition = null, displayChange = DisplayChange { displayId = 0, startAbsBounds = null, endAbsBounds = null, startRotation = 0, endRotation = 1, physicalDisplayChanged = false }, flags = 0, debugId = 65 }
+V/WindowManager(  686):     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+V/WindowManager(  686):     info={id=65 t=CHANGE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+V/WindowManager(  686):         {WCT{RemoteToken{c8f4a24 Task{fc8b49c #23 type=standard A=10217:com.rovio.angrybirdsstarwars.ads.iap nonResizable}}} m=CHANGE f=NONE p=WCT{RemoteToken{34b9320 DefaultTaskDisplayArea@50349920}} leash=Surface(name=Task=23)/@0x103e500 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:-1 taskParent=-1},
+V/WindowManager(  686):         {WCT{RemoteToken{34b9320 DefaultTaskDisplayArea@50349920}} m=CHANGE f=FLAG_IS_TASK_DISPLAY_AREA p=WCT{RemoteToken{c2706a7 Display{#0 state=ON size=2340x1080 ROTATION_90}}} leash=Surface(name=DefaultTaskDisplayArea)/@0x6b3ee90 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:-1},
+V/WindowManager(  686):         {WCT{RemoteToken{c2706a7 Display{#0 state=ON size=2340x1080 ROTATION_90}}} m=CHANGE f=IS_DISPLAY leash=Surface(name=WindowedMagnification:0:31)/@0x5d181fc sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:3}
+V/WindowManager(  686):     ]}
+V/WindowManagerShell( 1126): onTransitionReady(transaction=2946347568523)
+I/AppBase ( 8231): AppBase.onConfigurationChanged():422 onConfigurationChanged() : NewConfig = {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1582 fontWeightAdjustment=0}
+I/putmethod.latin( 8231): AssetManager2(0x7b4275c58638) locale list changing from [] to [en-US]
+I/Finsky  ( 8200): [206] SCH: Satisfied jobs for 9301 are: 37-5
+D/TaskbarManager( 1396): onConfigurationChanged: {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1577 fontWeightAdjustment=0} displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): onConfigurationChanged: | configDiff={} displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): onConfigurationChanged: isTaskbarEnabled(dp)=True displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): onConfigurationChanged: call recreateTaskbars displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbars displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbars: create external taskbar displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbarForDisplay:  displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbarForDisplay: getting device profile displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbarForDisplay: destroying taskbar displayId=0 isDefaultDisplay=true
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onConfigurationChanged():1030 onConfigurationChanged() : NewConfig = {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h363dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1017) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1577 fontWeightAdjustment=0}
+D/TaskbarManager( 1396): destroyTaskbarForDisplay displayId=0 isDefaultDisplay=true
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onConfigurationChanged():1031 device real metrics: DisplayMetrics{density=2.625, width=2340, height=1080, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onConfigurationChanged():1039 Maybe update OEM display config because of configuration change
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():545 notifyCurrentInputMethodEntryOnContextChanged()
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():566 Notify current input method entry changed on context change
+I/Finsky  ( 8200): [217] SCH: Job 37-5 starting
+I/KeyboardContextProvider( 8231): KeyboardContextProvider$KeyboardContextCache.createKeyboardContext():173 createKeyboardContext(): en-US, jgj@39a1e65(com.android.inputmethod.latin.LatinIME@4a3e675), {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h363dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1017) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1577 fontWeightAdjustment=0}
+I/Finsky  ( 8200): [2] WM::SCH: Logging work start for 37-5
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onCurrentInputMethodEntryChanged():2285 onCurrentInputMethodEntryChanged(): imeDefsChanged=false, entryLanguageVariantChanged=false, keyboardContextChanged=true
+I/Finsky  ( 8200): [2] Received an install/uninstall event for package com.rovio.angrybirdsstarwars.ads.iap
+I/Finsky  ( 8200): [2] SCH: jobFinished: 37-5. TimeElapsed: 1ms.
+I/Finsky  ( 8200): [2] WM::SCH: Logging work end for 37-5
+I/SystemSubtypesReportModule( 8231): SystemSubtypesReportModule$3.onCurrentInputMethodEntryChanged():149 entry: en-US, source: UNSPECIFIED
+I/Finsky  ( 8200): [58] Not an active Cubes user. Ignoring package install/uninstall event.
+I/KeyboardContextProvider( 8231): KeyboardContextProvider.setBaseContextAndInvalidKeyboardContextCache():88 setBaseContextAndInvalidKeyboardContextCache(): com.android.inputmethod.latin.LatinIME@4a3e675
+V/WindowManagerShell( 1126): onTransitionReady (#65) android.os.BinderProxy@370c97b: {id=65 t=CHANGE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+V/WindowManagerShell( 1126):         {m=CHANGE f=NONE p=WCT{android.window.IWindowContainerToken$Stub$Proxy@5ffe22d} leash=Surface(name=Task=23)/@0xc28b7f1 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:-1 taskParent=-1},
+V/WindowManagerShell( 1126):         {m=CHANGE f=FLAG_IS_TASK_DISPLAY_AREA p=WCT{android.window.IWindowContainerToken$Stub$Proxy@ab3362} leash=Surface(name=DefaultTaskDisplayArea)/@0xac7efd6 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:-1},
+V/WindowManagerShell( 1126):         {m=CHANGE f=IS_DISPLAY leash=Surface(name=WindowedMagnification:0:31)/@0x7b88257 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:3}
+V/WindowManagerShell( 1126):     ]}
+V/WindowManagerShell( 1126): Playing animation for (#65) android.os.BinderProxy@370c97b@0
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.resetLanguages():2747 resetLanguages(): languages=null, conditionName=orientation
+W/WindowManagerShell( 1126): PipTransition: startAnimation() should start with clear fixed rotation state
+V/ShellRecents( 1126): RecentsTransitionHandler.startAnimation: no controller found
+V/WindowManagerShell( 1126): start default transition animation, info = {id=65 t=CHANGE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=CHANGE f=NONE p=WCT{android.window.IWindowContainerToken$Stub$Proxy@5ffe22d} leash=Surface(name=Task=23)/@0xc28b7f1 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:-1 taskParent=-1},{m=CHANGE f=FLAG_IS_TASK_DISPLAY_AREA p=WCT{android.window.IWindowContainerToken$Stub$Proxy@ab3362} leash=Surface(name=DefaultTaskDisplayArea)/@0xac7efd6 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:-1},{m=CHANGE f=IS_DISPLAY leash=Surface(name=WindowedMagnification:0:31)/@0x7b88257 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 2340, 1080) epz=Point(2340, 1080) d=0 r=0->1:3}]}
+V/WindowManagerShell( 1126): Display is changing, resolve the animation hint.
+I/ImeDefCache( 8231): ImeDefCache.clearCacheForLanguages():385 clearCacheForLanguages(): []
+V/WindowManagerShell( 1126):   display requests explicit seamless
+I/AdditionalImeDefCache( 8231): AdditionalImeDefCache.clearAdditionalImeDefsForCondition():425 clearAdditionalImeDefsForCondition() clear additional ImeDefs: []
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.resetLanguages():2758 Clear cache for languages: null, changed=false
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.startLoadingInputMethodEntrySettings():740 Start loading input method entry settings: [LanguageTagVariantTuple{languageTag=en-US, variant=qwerty}]
+I/NoBackGesture( 1126): Config changed: newConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1644 fontWeightAdjustment=0} lastReportedConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h891dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1572 fontWeightAdjustment=0}
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.updateInputMethodEntrySettingsLoadingTask():872 update loading task with resetImplicitlyEnabledEntries is false
+I/NoBackGesture( 1126): NavbarController: newConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1644 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=0
+I/InputMethodEntryManager( 8231): InputMethodEntryManager$4.onSuccess():891 Success load entries: [LanguageTagVariantTuple{languageTag=en-US, variant=qwerty}], resetImplicitlyEnabledEntries=false, initialized=true
+D/ShadeStateTraceLogger( 1126): New configuration change from Shade window. smallestScreenWidthDp: 411, densityDpi: 420
+I/InputManager-JNI(  686): Viewport [0] to add: local:4619827259835644672, isActive: true
+I/InputReader(  686): Reconfiguring input devices, changes=DISPLAY_INFO
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader(  686): Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+I/SystemSubtypesReportModule( 8231): SystemSubtypesReportModule$2.onEnabledInputMethodEntriesChanged():131 1 entries
+W/PartnerConfigHelper( 9517): Emulator detected, bypassing system app check for partner provider.
+E/ActivityThread( 9517): Failed to find provider info for com.google.android.setupwizard.partner
+W/PartnerConfigHelper( 9517): isGlifExpressiveEnabled status is unknown; return as false.
+I/PartnerConfigHelper( 9517): isGlifExpressiveStyleEnabled is false
+I/DelightKLPDownloader( 8231): DelightKLPDownloader.downloadKLPInternal():199 downloading KLP for en_840
+W/PartnerConfigHelper( 9517): Emulator detected, bypassing system app check for partner provider.
+E/ActivityThread( 9517): Failed to find provider info for com.google.android.setupwizard.partner
+W/PartnerConfigHelper( 9517): isGlifExpressiveEnabled status is unknown; return as false.
+I/PartnerConfigHelper( 9517): isGlifExpressiveStyleEnabled is false
+W/PartnerConfigHelper( 9517): Emulator detected, bypassing system app check for partner provider.
+E/ActivityThread( 9517): Failed to find provider info for com.google.android.setupwizard.partner
+W/PartnerConfigHelper( 9517): isGlifExpressiveEnabled status is unknown; return as false.
+I/PartnerConfigHelper( 9517): isGlifExpressiveStyleEnabled is false
+I/SetupLibrary( 9517): [StatusBarBgLayout] Apply edge to edge, glifExpressiveEnabled: false, isAtLeastLollipop: true, windowInsetBottom: 63
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.changeCurrentInputMethodEntry():2958 Set current input method entry: source=UNSPECIFIED, entryChanged=false, kek{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_app_first_start_timestamp=1792039230512_cache_additional_ime_defs_for_condition_change=false_cache_ime_defs_for_condition_change=false_deprecate_long_press_space_for_ime_picker=false_device=phone_device_size=default_enable_access_points_in_password_number=false_enable_flick_symbols=true_enable_more_candidates_view_for_multilingual=false_enable_number_row=false_enable_preemptive_decode=true_enable_premium_exp_tablet_layout_change=false_enable_secondary_digits=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_layout_9key_split=false_orientation=landscape_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.libraries.inputmethod.ime.experiment.ExperimentImeWrapper, imeDef.languageTag=en-US}
+I/ManifestedDataDownloader( 8231): ManifestedDataDownloader.download():63 downloading manifest https://www.gstatic.com/android/keyboard/dictionarypack/2025031619/metadata.json-perlang/en-840.json?v=2025052001
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.loadAdditionalImeDefsForCurrentEntry():2981 loadAdditionalImeDefsForCurrentEntry(): kek{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_app_first_start_timestamp=1792039230512_cache_additional_ime_defs_for_condition_change=false_cache_ime_defs_for_condition_change=false_deprecate_long_press_space_for_ime_picker=false_device=phone_device_size=default_enable_access_points_in_password_number=false_enable_flick_symbols=true_enable_more_candidates_view_for_multilingual=false_enable_number_row=false_enable_preemptive_decode=true_enable_premium_exp_tablet_layout_change=false_enable_secondary_digits=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_layout_9key_split=false_orientation=landscape_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.libraries.inputmethod.ime.experiment.ExperimentImeWrapper, imeDef.languageTag=en-US}
+I/BpBinder(  550): onLastStrongRef automatically unlinking death recipients: 
+V/WindowManagerShell( 1126): Transition animation finished (aborted=false), notifying core (#65) android.os.BinderProxy@370c97b@0
+D/TaskbarManager( 1396): recreateTaskbarForDisplay: isTaskbarEnabled=true [dp != null (i.e. mUserUnlocked)]=true FLAG_HIDE_NAVBAR_WINDOW=true dp.isTaskbarPresent=false displayExists=true displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbarForDisplay: creating taskbar displayId=0 isDefaultDisplay=true
+I/s.nexuslauncher( 1396): AssetManager2(0x7b4275c25058) locale list changing from [] to [en-US]
+I/InputMethodEntryManager( 8231): InputMethodEntryManager$6.onSuccess():2997 Success load additional ImeDefs, entryChanged=false, additionalImeDefsChanged=false, [kyj{stringId=password, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={variant=qwerty, enable_access_points_in_password_number=false, enable_number_row=false, device=phone}, className=com.google.android.libraries.inputmethod.ime.password.PasswordIme, label=2132019061, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@6e9d127, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=number, language=und-Latn-x-number, languageTag=und-Latn-x-number, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019005, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@a721fd4, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=number_password, language=und-Latn-x-number-password, languageTag=und-Latn-x-number-password, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019006, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@a42557d, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=phone_number, language=und-Latn-x-phone-number, languageTag=und-Latn-x-phone-number, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019096, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@ff8ac72, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=date_time, language=und-Latn-x-date-time, languageTag=und-Latn-x-date-time, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132017724, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@39858c3, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=dummy_hard, language=en, languageTag=en, processedConditions={device=unknown}, className=com.google.android.apps.inputmethod.libs.latin5.LatinDummyIme, label=0, keyEventInter
+I/InputMethodEntryManager( 8231): preter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=HARD_QWERTY, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@cbb6540, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=password_floating_hard_qwerty, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019097, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=2131231749, primeKeyboardType=HARD_QWERTY, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@423cc79, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=phone_number_floating_hard_qwerty, language=und-Latn-x-phone-number, languageTag=und-Latn-x-phone-number, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019097, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=2131231925, primeKeyboardType=HARD_QWERTY, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@a211dbe, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=number_floating_hard_qwerty, language=und-Latn-x-number, languageTag=und-Latn-x-number, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019097, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=2131231925, primeKeyboardType=HARD_QWERTY, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@61dbe1f, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, kyj{stringId=date_time_floating_hard_qwerty, language=und-Latn-x-date-time, languageTag=und-Latn-x-date-time, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019097, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=2131231925, primeKeyboardType=HARD_QWERTY, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@e4f7e6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@591956c, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}]
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.onSuccessLoadingAdditionalImeDefs():3063 Additional ImeDefs have been loaded, maybe notify entry change: false
+I/s.nexuslauncher( 1396): AssetManager2(0x7b4275c2c718) locale list changing from [] to [en-US]
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onCurrentInputMethodEntryChanged():2285 onCurrentInputMethodEntryChanged(): imeDefsChanged=false, entryLanguageVariantChanged=false, keyboardContextChanged=false
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onCurrentInputMethodEntryChanged():2302 Skip the entry change as the input method entry is consider as not changed.
+I/SystemSubtypesReportModule( 8231): SystemSubtypesReportModule$3.onCurrentInputMethodEntryChanged():149 entry: en-US, source: UNSPECIFIED
+V/WindowManager(  686): Finish Transition (#65): created at 10-15 05:13:57.625 collect-started=12.417ms request-sent=12.474ms started=58.169ms ready=98.989ms sent=107.05ms commit=55.958ms finished=189.759ms
+V/WindowManagerShell( 1126): Track 0 became idle
+V/WindowManagerShell( 1126): All active transition animations finished
+V/WindowManagerShell( 1126):  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e5c1ddb
+V/WindowManagerShell( 1126): Track 0 became idle
+V/WindowManagerShell( 1126): All active transition animations finished
+D/ShellSplitScreen( 1126): onTaskInfoChanged: taskId=4 taskAct=null stageId=MAIN
+W/NotificationCenter( 8231): NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [lua->mvz] takes 69ms
+I/DeviceModeModule( 8231): DeviceModeModule.calculateAndNotify():223 Device mode 'phone' from display metrics 'DisplayMetrics{density=0.0, width=1080, height=2340, scaledDensity=0.0, xdpi=420.0, ydpi=420.0}' or smallestScreenWidthDp: 411
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onConfigurationChanged():1061 changedMask : 20000480
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.clearInputMethodServiceData():1016 clearInputMethodServiceData for configurationChange
+I/Finsky  ( 8200): [59] SCH: Scheduling phonesky job Id: 26-1414141414, CT: 1792040870123, Constraints: [{ L: 43200000, D: 44100000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_NONE, B: BATTERY_ANY }]
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/Finsky  ( 8200): [61] SCH: Scheduling 1 system job(s)
+W/JobInfo ( 8200): Job 'com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain#9304' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+I/Finsky  ( 8200): [61] SCH: Scheduling system job Id: 9304, L: 42832284, D: 43732284, C: false, I: false, N: 0
+W/JobInfo (  686): Job 'com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain#9304' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+W/LatinCommonMetricsProcessor( 8231): LatinCommonMetricsProcessor.processInputMethodEntryChanged():2417 The new entry is equal to the old entry
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.discardAllKeyboardViewAndInputView():1181 discardAllKeyboardViewAndInputView()
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():537 Destroy existing keyboard group manager in eay
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension.createKeyboardGroupManagerListenableFuture():121 Create keyboard group manager listenable future in eay
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():537 Destroy existing keyboard group manager in fso
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension.createKeyboardGroupManagerListenableFuture():121 Create keyboard group manager listenable future in fso
+I/absw-guest(10954): Loading Component: game::ResourceScope
+I/Finsky  ( 8200): [217] SCH: job service finished with id 9301.
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():537 Destroy existing keyboard group manager in fve
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension.createKeyboardGroupManagerListenableFuture():121 Create keyboard group manager listenable future in fve
+I/KeyboardGroupDefParser( 8231): KeyboardGroupDefParser.parseKeyboardGroupDef():86 parseKeyboardGroupDef() 2132214031 -> 0_resource_name_obfuscated : WaitTime = 5 ms : RunTime = 0 ms
+I/KeyboardGroupDefParser( 8231): KeyboardGroupDefParser.parseKeyboardGroupDef():86 parseKeyboardGroupDef() 2132214028 -> 0_resource_name_obfuscated : WaitTime = 5 ms : RunTime = 1 ms
+I/KeyboardGroupDefParser( 8231): KeyboardGroupDefParser.parseKeyboardGroupDef():86 parseKeyboardGroupDef() 2132214032 -> 0_resource_name_obfuscated : WaitTime = 6 ms : RunTime = 0 ms
+I/GoogleInputMethodService( 8231): GoogleInputMethodService$7.onWindowMetricsChanged():769 windowMetrics: bounds() = Rect(0, 63 - 2340, 1080), insets() = Rect(0, 0 - 0, 0)
+I/DeviceModeModule( 8231): DeviceModeModule.calculateAndNotify():223 Device mode 'phone' from display metrics 'DisplayMetrics{density=0.0, width=2340, height=1080, scaledDensity=0.0, xdpi=420.0, ydpi=420.0}' or smallestScreenWidthDp: 411
+I/WindowMetricsNotification( 8231): WindowMetricsNotification.notify():159 mub[bounds=Rect(0, 63 - 2340, 1080), insets=Rect(0, 0 - 0, 0), densityDpi=420, smallestScreenWidthDp=411, displayWidth=2340, displayHeight=1080, xdpi=420.0, ydpi=420.0, isTrustable=true, displayId=0]; DisplayMetrics{density=2.625, width=2340, height=1080, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+I/WindowMetricsHelper( 8231): WindowMetricsHelper.predictAndNotify():140 Window metrics predicted.
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.initializeInputMethodServiceData():834 initializeInputMethodServiceData for kek{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_app_first_start_timestamp=1792039230512_cache_additional_ime_defs_for_condition_change=false_cache_ime_defs_for_condition_change=false_deprecate_long_press_space_for_ime_picker=false_device=phone_device_size=default_enable_access_points_in_password_number=false_enable_flick_symbols=true_enable_more_candidates_view_for_multilingual=false_enable_number_row=false_enable_preemptive_decode=true_enable_premium_exp_tablet_layout_change=false_enable_secondary_digits=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_layout_9key_split=false_orientation=landscape_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.libraries.inputmethod.ime.experiment.ExperimentImeWrapper, imeDef.languageTag=en-US}
+D/FileUtils(  686): Rounded bytes from 4110139392 to 8000000000
+I/ndroid.systemui( 1126): AssetManager2(0x7b4275c372f8) locale list changing from [] to [en-US]
+I/KeyboardThemeProvider( 8231): KeyboardThemeProvider.applyKeyboardTheme():27 Apply keyboard theme: theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_DEVICE_MODE=phone_FLAVOR_DPI=XXHDPI_KEYBOARD_MODE=1_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_ORIENTATION=2_PHYSICAL_DIAGONAL=6.0748773_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_enable_google_fonts_icons=true_enable_normal_landscape_phone_override_theme=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff475d92-6dac7c28fa7faa76f8370bbfdbc77981_silkpopup_unify_function_key_color=true
+I/system_server(  686): AssetManager2(0x7b4275c5da98) locale list changing from [] to [en-US]
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::ResourceScope
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::ResourceScope
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::CameraComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::ResourceScope
+I/absw-guest(10954): Loading Component: game::CameraComponent
+I/absw-guest(10954): Loading Component: game::CameraComponent
+I/Finsky  ( 8200): [2] Memory trim requested to level 40
+I/Finsky  ( 8200): [2] Flushing in-memory image cache
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+W/StyleResolver( 8231): StyleResolver.createParsedStyleRule():233 Only one descendant combinator is supported: .keytop.pill-variant-colored  .label:pressed
+I/absw-guest(10954): Loading Component: game::AudioSystemComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::ResourceScope
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::CameraComponent
+I/absw-guest(10954): Loading Component: game::Animation
+I/absw-guest(10954): Loading Component: game::SpriteComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::AudioSystemComponent
+I/absw-guest(10954): Loading Component: game::EntityEventComponent
+I/absw-guest(10954): Loading Component: game::TagComponent
+I/Fitness ( 8997): (REDACTED) OnPackageChangedOperation got intent: %s
+I/AndroidIME( 8231): InputBundleManager.loadActiveInputBundleId():483 loadActiveInputBundleId: und-Latn-x-password, password
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.gms, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=12000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[zz]}}, true)
+W/SessionManager( 8231): SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+I/EmojiCompatManager( 8231): EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+I/EmojiCompatManager( 8231): java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+I/EmojiCompatManager( 8231): 	at asx.p(PG:6)
+I/EmojiCompatManager( 8231): 	at axb.b(PG:13)
+I/EmojiCompatManager( 8231): 	at jnr.b(PG:2)
+I/EmojiCompatManager( 8231): 	at jnr.c(PG:4)
+I/EmojiCompatManager( 8231): 	at jnr.f(PG:3)
+I/EmojiCompatManager( 8231): 	at jnx.c(PG:3)
+I/EmojiCompatManager( 8231): 	at kif.cz(PG:47)
+I/EmojiCompatManager( 8231): 	at lhl.run(PG:1025)
+I/EmojiCompatManager( 8231): 	at jaf.execute(PG:12)
+I/EmojiCompatManager( 8231): 	at nco.v(PG:13)
+I/EmojiCompatManager( 8231): 	at lhn.m(PG:96)
+I/EmojiCompatManager( 8231): 	at lhn.k(PG:25)
+I/EmojiCompatManager( 8231): 	at kgn.onStartInput(PG:250)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService.resetStateForNewConfiguration(InputMethodService.java:2017)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService.$r8$lambda$oRMkK66rOxqNaqhjifweqVkTB4Q(Unknown Source:0)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService$$ExternalSyntheticLambda5.run(D8$$SyntheticClass:0)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.ImsConfigurationTracker.onConfigurationChanged(ImsConfigurationTracker.java:103)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService.onConfigurationChanged(InputMethodService.java:2003)
+I/EmojiCompatManager( 8231): 	at kgn.onConfigurationChanged(PG:234)
+I/EmojiCompatManager( 8231): 	at dbj.onConfigurationChanged(PG:4)
+I/EmojiCompatManager( 8231): 	at android.window.WindowProviderService.dispatchConfigurationChanged(WindowProviderService.java:253)
+I/EmojiCompatManager( 8231): 	at android.window.WindowTokenClient.onConfigurationChangedInner(WindowTokenClient.java:205)
+I/EmojiCompatManager( 8231): 	at android.window.WindowTokenClient.onConfigurationChanged(WindowTokenClient.java:153)
+I/EmojiCompatManager( 8231): 	at android.window.WindowTokenClient.onConfigurationChanged(WindowTokenClient.java:112)
+I/EmojiCompatManager( 8231): 	at android.window.WindowTokenClientController.onWindowContextInfoChanged(WindowTokenClientController.java:251)
+I/EmojiCompatManager( 8231): 	at android.app.ActivityThread.handleWindowContextInfoChanged(ActivityThread.java:6908)
+I/EmojiCompatManager( 8231): 	at android.app.servertransaction.WindowContextInfoChangeItem.execute(WindowContextInfoChangeItem.java:53)
+I/EmojiCompatManager( 8231): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+I/EmojiCompatManager( 8231): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+I/EmojiCompatManager( 8231): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+I/EmojiCompatManager( 8231): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2823)
+I/EmojiCompatManager( 8231): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+I/EmojiCompatManager( 8231): 	at android.os.Looper.loopOnce(Looper.java:248)
+I/EmojiCompatManager( 8231): 	at android.os.Looper.loop(Looper.java:338)
+I/EmojiCompatManager( 8231): 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+I/EmojiCompatManager( 8231): 	at java.lang.reflect.Method.invoke(Native Method)
+I/EmojiCompatManager( 8231): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+I/EmojiCompatManager( 8231): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+I/Module  ( 8231): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+E/SystemServiceRegistry( 1229): No service published for: ethernet
+E/SystemServiceRegistry( 1229): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+E/SystemServiceRegistry( 1229): 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:203)
+E/SystemServiceRegistry( 1229): 	at android.app.SystemServiceRegistry$149.createService(SystemServiceRegistry.java:2232)
+E/SystemServiceRegistry( 1229): 	at android.app.SystemServiceRegistry$CachedServiceFetcher.getService(SystemServiceRegistry.java:2343)
+E/SystemServiceRegistry( 1229): 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1918)
+E/SystemServiceRegistry( 1229): 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2315)
+E/SystemServiceRegistry( 1229): 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:964)
+E/SystemServiceRegistry( 1229): 	at com.android.networkstack.tethering.Tethering.isEthernetSupported(Tethering.java:1862)
+E/SystemServiceRegistry( 1229): 	at com.android.networkstack.tethering.Tethering.makeSupportedDownstreams(Tethering.java:2843)
+E/SystemServiceRegistry( 1229): 	at com.android.networkstack.tethering.Tethering.updateSupportedDownstreams(Tethering.java:2817)
+E/SystemServiceRegistry( 1229): 	at com.android.networkstack.tethering.Tethering.updateConfiguration(Tethering.java:564)
+E/SystemServiceRegistry( 1229): 	at com.android.networkstack.tethering.Tethering.-$$Nest$mupdateConfiguration(Tethering.java:0)
+E/SystemServiceRegistry( 1229): 	at com.android.networkstack.tethering.Tethering$StateReceiver.onReceive(Tethering.java:1396)
+E/SystemServiceRegistry( 1229): 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1839)
+E/SystemServiceRegistry( 1229): 	at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$mcNAAl1SQ4MyJPyDg8TJ2x2h0Rk(Unknown Source:0)
+E/SystemServiceRegistry( 1229): 	at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+E/SystemServiceRegistry( 1229): 	at android.os.Handler.handleCallback(Handler.java:995)
+E/SystemServiceRegistry( 1229): 	at android.os.Handler.dispatchMessage(Handler.java:103)
+E/SystemServiceRegistry( 1229): 	at android.os.Looper.loopOnce(Looper.java:248)
+E/SystemServiceRegistry( 1229): 	at android.os.Looper.loop(Looper.java:338)
+E/SystemServiceRegistry( 1229): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+W/PackageConfigPersister(  686): App-specific configuration not found for packageName: com.google.android.gms and userId: 0
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.enableLanguagesAndChangeCurrentTemporarily():1811 enabledLanguages: [zz], specifiedCurrentLanguage null
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.enableInputMethodEntriesTemporarily():2031 temporarilyEnabledEntryTuples []
+I/DictionarySuperpacksManager( 8231): DictionarySuperpacksManager$1.onEnabledInputMethodEntriesChanged():65 onEnabledInputMethodEntriesChanged
+I/HandwritingOfflineSuperpacks( 8231): HandwritingOfflineSuperpacks.syncInternal():80 no bundled lm for handwriting.
+I/HandwritingSuperpacks( 8231): HandwritingSuperpacks.register():273 register(): version '86', url 'https://dl.google.com/handwriting/models/handwriting_release.superpack_manifest.20231127.json' [ONLINE]
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension$3.onSuccess():555 KeyboardGroupManager destroyed in eay.
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension$3.onSuccess():555 KeyboardGroupManager destroyed in fso.
+I/AbstractOpenableExtension( 8231): AbstractOpenableExtension$3.onSuccess():555 KeyboardGroupManager destroyed in fve.
+W/AiAiVC  ( 1827): Unexpected capture event type: 11
+I/ContextualSearchInvoker( 1396): Contextual Search invocation failed: no ContextualSearchManager
+D/StatsLog( 1396): LAUNCHER_LAUNCH_ASSISTANT_FAILED_SERVICE_ERROR
+I/WindowManager(  686): finishDrawing of orientation change: Window{a146f25 u0 StatusBar} 206ms
+D/LauncherBinder( 1396): Starting sync inflation
+D/LauncherBinder( 1396): Calling onCompleteSignal
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Settings sectionName: S
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Photos sectionName: P
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Battery sectionName: B
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Chrome sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Gmail sectionName: G
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Drive sectionName: D
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Clock sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Contacts sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Calendar sectionName: C
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Maps sectionName: M
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: YouTube Music sectionName: Y
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: YouTube sectionName: Y
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Google sectionName: G
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Android System Intelligence sectionName: A
+I/absw    (10954): libAngryBirdsStarWars.so: ran 96 constructors
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+W/BcSmartspaceView( 1126): Current card is not present in the Adapter; cannot log.
+W/AlarmManager( 1126): Unrecognized alarm listener com.google.android.systemui.smartspace.KeyguardZenAlarmViewController$showNextAlarm$1@7eae6ce
+W/AlarmManager( 1126): Unrecognized alarm listener com.google.android.systemui.smartspace.KeyguardZenAlarmViewController$showNextAlarm$1@7eae6ce
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+W/BcSmartspaceView( 1126): Current card is not present in the Adapter; cannot log.
+I/absw    (10954): bound 71 native methods
+I/absw    (10954): guest JNI_OnLoad returned 0x10006
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+W/BcSmartspaceView( 1126): Current card is not present in the Adapter; cannot log.
+I/AiAiEcho( 1827): Predicting[0]:  [CONTEXT sampling_count=5 ]
+I/AiAiEcho( 1827): EchoTargets: 
+I/AiAiEcho( 1827): Filtered by AiAi flag check: 
+I/AiAiEcho( 1827): [CONTEXT ratelimit_period="10 SECONDS" ]
+I/AiAiEcho( 1827): #remoteViewsTwiddler: feature disabled.
+I/AiAiEcho( 1827): Predicting[0]:  [CONTEXT sampling_count=5 ]
+I/AiAiEcho( 1827): EchoTargets: 
+I/AiAiEcho( 1827): Filtered by AiAi flag check: 
+I/AiAiEcho( 1827): [CONTEXT ratelimit_period="10 SECONDS" ]
+I/AiAiEcho( 1827): #remoteViewsTwiddler: feature disabled.
+I/AiAiEcho( 1827): #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+I/AiAiEcho( 1827): #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Digital Wellbeing sectionName: D
+D/AlphabeticIndexCompat( 1396): computeSectionName: cs: Conversations sectionName: C
+D/TaskbarManager( 1396): createTaskbarUIControllerForRecentsViewContainer displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbarForDisplay: adding rootView displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): addTaskbarRootViewToWindow: displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): addTaskbarRootViewToWindow: rootLayout already added! displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): getTaskbarRootLayoutForDisplay: displayId=0 isDefaultDisplay=true
+D/TaskbarManager( 1396): recreateTaskbarForDisplay: adding root layout displayId=0 isDefaultDisplay=true
+D/b/254119092( 1396): DisplayController#onConfigurationChanged: {1.0 310mcc260mnc [en_US] ldltr sw411dp w891dp h411dp 420dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2340, 1080) mMaxBounds=Rect(0, 0 - 2340, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.2 s.1577 fontWeightAdjustment=0}
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+I/AiAiEcho( 1827): Predicting[0]:  [CONTEXT sampling_count=5 ]
+I/AiAiEcho( 1827): EchoTargets: 
+I/AiAiEcho( 1827): Filtered by AiAi flag check: 
+I/AiAiEcho( 1827): [CONTEXT ratelimit_period="10 SECONDS" ]
+I/AiAiEcho( 1827): #remoteViewsTwiddler: feature disabled.
+I/AiAiEcho( 1827): Predicting[0]:  [CONTEXT sampling_count=5 ]
+I/AiAiEcho( 1827): EchoTargets: 
+I/AiAiEcho( 1827): Filtered by AiAi flag check: 
+I/AiAiEcho( 1827): [CONTEXT ratelimit_period="10 SECONDS" ]
+I/AiAiEcho( 1827): #remoteViewsTwiddler: feature disabled.
+I/AiAiEcho( 1827): #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+W/PageIndicator( 1126): Total number of pages invalid: 0. Assuming 1 page.
+I/AiAiEcho( 1827): #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+D/BubbleBarView( 1396): BubbleBar RTL properties changed, new layoutDirection=0 previous layoutDirection=-1
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+I/WindowManager(  686): finishDrawing of orientation change: Window{7c4b81a u0 Taskbar} 350ms
+D/SsBaseTemplateCard( 1396): No text view can be set up
+D/SsBaseTemplateCard( 1396): Passed-in item info is null
+D/SsBaseTemplateCard( 1396): Passed-in item info is null
+D/SsBaseTemplateCard( 1396): Passed-in item info is null
+I/SsBaseTemplateCard( 1396): Secondary card pane is null
+D/SsBaseTemplateCard( 1396): No text view can be set up
+D/SsBaseTemplateCard( 1396): Passed-in item info is null
+D/SsBaseTemplateCard( 1396): Passed-in item info is null
+D/SsBaseTemplateCard( 1396): Passed-in item info is null
+I/SsBaseTemplateCard( 1396): Secondary card pane is null
+I/Fitness ( 8997): (REDACTED) FitCleanupIntentOperation received Intent %s
+D/DesktopModeFlags(10954): Toggle override initialized to: OVERRIDE_UNSET
+I/DownloadManager( 8231): DownloadManager.downloadInternal():412 Download for __SP_MANIFEST_emoticon_content_description scheduled with params DownloadParams{allowMetered=true, requireCharging=false, foreground=false, immediately=true, priority=0}
+I/DownloadManager( 8231): DownloadManager.startDownload():495 start download of __SP_MANIFEST_emoticon_content_description
+I/DownloadManager( 8231): DownloadManager.downloadInternal():412 Download for __KLP_manifest_delight__en-840 scheduled with params DownloadParams{allowMetered=true, requireCharging=false, foreground=false, immediately=true, priority=0}
+I/DownloadManager( 8231): DownloadManager.startDownload():495 start download of __KLP_manifest_delight__en-840
+I/DownloadManager( 8231): DownloadManager$4.onSuccess():564 download for __SP_MANIFEST_emoticon_content_description is finished with files # mxp@ae04f0ec
+I/DownloadManager( 8231): DownloadManager.downloadInternal():412 Download for __SP_MANIFEST_handwriting_recognition scheduled with params DownloadParams{allowMetered=true, requireCharging=false, foreground=false, immediately=true, priority=0}
+I/DownloadManager( 8231): DownloadManager.startDownload():495 start download of __SP_MANIFEST_handwriting_recognition
+W/Looper  (  686): Slow dispatch took 763ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d006b75 m=0
+I/WindowManager(  686): finishDrawing of orientation change: Window{f67d179 u0 DeprecatedTargetSdkVersionDialog} 544ms
+W/Looper  (  686): Slow delivery took 790ms android.ui app=system_server main=false group=TOP_APP h=com.android.server.wm.DisplayPolicy$PolicyHandler c=com.android.server.wm.DisplayPolicy$$ExternalSyntheticLambda14@2536f9b m=0
+I/Choreographer(  686): Skipped 44 frames!  The application may be doing too much work on its main thread.
+I/HWUI    (  686): Davey! duration=802ms; Flags=1, FrameTimelineVsyncId=96855, IntendedVsync=2128103508148, Vsync=2128136841480, InputEventId=0, HandleInputStart=2128141003900, AnimationStart=2128141036200, PerformTraversalsStart=2128141073900, DrawStart=2128197989000, FrameDeadline=2128120174814, FrameStartTime=2128140991800, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=2128235012500, SyncStart=2128235677900, IssueDrawCommandsStart=2128235837800, SwapBuffers=2128729805300, FrameCompleted=2128907053400, DequeueBufferDuration=34700, QueueBufferDuration=251800, GpuCompleted=2128907053400, SwapBuffersCompleted=2128892624300, DisplayPresentTime=31244194867904616, CommandSubmissionCompleted=2128729805300, 
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+I/DownloadManager( 8231): DownloadManager$4.onSuccess():564 download for __KLP_manifest_delight__en-840 is finished with files # mxp@669254b5
+I/DownloadManager( 8231): DownloadManager$4.onSuccess():564 download for __SP_MANIFEST_handwriting_recognition is finished with files # mxp@12b7f82a
+I/ManifestedDataDownloader( 8231): ManifestedDataDownloader.checkVersionAndDownload():91 filegroup __KLP_delight__en-840 with version 2025031300 is already downloaded
+I/HandwritingOnlineSuperpacks( 8231): HandwritingOnlineSuperpacks.syncInternal():168 syncPackMapping()
+I/MDDSuperpacks( 8231): MDDSuperpacks.sync():223 sync requested for handwriting_recognition
+W/HWUI    (10954): Unknown dataspace 0
+I/DelightKLPDownloader( 8231): DelightKLPDownloader$2.onSuccess():222 klp en_840 downloaded with version 2025031300
+I/SuperDelight( 8231): SuperDelightBundledMetadataParser.addSystemLms():202 system lm dir /system/usr/share/ime/google/d3_lms does not exist or is not readable
+I/SuperDelight( 8231): SuperDelightBundledMetadataParser.parse():192 SuperDelightBundledMetadataParser#parse(): manifest parsed with 1 packs
+D/InsetsController(10954): Setting requestedVisibleTypes to -12 (was -9)
+W/WindowManager(  686): Failed looking up window session=Session{6f97a4c 10954:u0a10217} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6410 com.android.server.wm.Session.updateRequestedVisibleTypes:700 android.view.IWindowSession$Stub.onTransact:1023 
+I/MDDSuperpacks( 8231): MDDSuperpacks.sync():223 sync requested for emoticon_content_description
+E/MDDSuperpacks( 8231): MDDSuperpacks.parseManifest():476 cannot find metadata for delight_overrides
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: emoticon_content_description
+D/CoreBackPreview(  686): Window{7f69f5a u0 com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@ed39668, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [7a635888cb828dfa2fc744b7b9b50f04] got for superpack: emoticon_content_description
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: emoticon_content_description
+I/HandwritingSlicingStrategy( 8231): HandwritingSlicingStrategy.getSlices():44 getSlices(): handwriting_recognition.86 useForeground=true
+W/ServiceManagerCppClient(  550): Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10217 pid=10954
+D/PermissionCache(  550): checking android.permission.ACCESS_SURFACE_FLINGER for uid=10217 => denied (13861 us)
+W/ServiceManagerCppClient(  550): Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10217 pid=0
+D/PermissionCache(  550): checking android.permission.ACCESS_SURFACE_FLINGER for uid=10217 => denied (994 us)
+W/ServiceManagerCppClient(  550): Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10217 pid=0
+D/PermissionCache(  550): checking android.permission.ROTATE_SURFACE_FLINGER for uid=10217 => denied (347 us)
+W/ServiceManagerCppClient(  550): Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10217 pid=0
+D/PermissionCache(  550): checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10217 => denied (791 us)
+W/ServiceManagerCppClient(  550): Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10217 pid=10954
+D/PermissionCache(  550): checking android.permission.ROTATE_SURFACE_FLINGER for uid=10217 => denied (1843 us)
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [7a635888cb828dfa2fc744b7b9b50f04] got for superpack: emoticon_content_description
+I/MDDSuperpacks( 8231): MDDSuperpacks$2.onSuccess():274 Sync success for emoticon_content_description with result: {old=[7a635888cb828dfa2fc744b7b9b50f04], new=[7a635888cb828dfa2fc744b7b9b50f04], metadata=false, last batch=true}
+I/HandwritingSlicingStrategy( 8231): HandwritingSlicingStrategy.getSlices():103 getSlices(): result {slices=[{handwriting_recognition:pack_mapping_v1_lstm_20231127, m:*:*:*, fg}, {handwriting_recognition:transformer_latin_tflite_20231010_zip, m:*:*:*, fg}, {handwriting_recognition:qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, m:*:*:*, fg}, {handwriting_recognition:transformer_latin_conf_tflite_20231010_zip, m:*:*:*, fg}, {handwriting_recognition:transformer_latin_seg_tflite_20231010_zip, m:*:*:*, fg}, {handwriting_recognition:en_us_20230613_compact_fst_zip, m:*:*:*, fg}, {handwriting_recognition:scribe_latin_20231123_tflite_zip, m:*:*:*, fg}, {handwriting_recognition:scribe_latin_20231123_recospec_zip, m:*:*:*, fg}], last batch=true, sync metadata=false}
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+W/Looper  (  686): Slow dispatch took 223ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d006b75 m=0
+I/MDDSuperpacks( 8231): MDDSuperpacks$2.onSuccess():274 Sync success for handwriting_recognition with result: {old=[en_us_20230613_compact_fst_zip, pack_mapping_v1_lstm_20231127, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, scribe_latin_20231123_recospec_zip, scribe_latin_20231123_tflite_zip, transformer_latin_conf_tflite_20231010_zip, transformer_latin_seg_tflite_20231010_zip, transformer_latin_tflite_20231010_zip], new=[en_us_20230613_compact_fst_zip, pack_mapping_v1_lstm_20231127, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, scribe_latin_20231123_recospec_zip, scribe_latin_20231123_tflite_zip, transformer_latin_conf_tflite_20231010_zip, transformer_latin_seg_tflite_20231010_zip, transformer_latin_tflite_20231010_zip], metadata=false, last batch=true}
+I/HandwritingOnlineSuperpacks( 8231): HandwritingOnlineSuperpacks.syncInternal():187 syncInternal(): syncing packs
+I/HandwritingOnlineSuperpacks( 8231): HandwritingOnlineSuperpacks$2.onSyncSuccess():225 syncInternal(): complete {old=[en_us_20230613_compact_fst_zip, pack_mapping_v1_lstm_20231127, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, scribe_latin_20231123_recospec_zip, scribe_latin_20231123_tflite_zip, transformer_latin_conf_tflite_20231010_zip, transformer_latin_seg_tflite_20231010_zip, transformer_latin_tflite_20231010_zip], new=[en_us_20230613_compact_fst_zip, pack_mapping_v1_lstm_20231127, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, scribe_latin_20231123_recospec_zip, scribe_latin_20231123_tflite_zip, transformer_latin_conf_tflite_20231010_zip, transformer_latin_seg_tflite_20231010_zip, transformer_latin_tflite_20231010_zip], metadata=false, last batch=true}
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+W/.apps.wellbeing( 8122): Suspending all threads took: 5.147ms
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c15fb8) locale list changing from [] to [en-US]
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition_offline
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c11e18) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0c9b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c13718) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c12db8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c17ef8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c162d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c14078) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c16c38) locale list changing from [] to [en-US]
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c15018) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c18e98) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c18b78) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf4c78) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c13d58) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c15c98) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c165f8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c17278) locale list changing from [] to [en-US]
+W/MDDSuperpacks( 8231): MDDSuperpacks.constructPackSet():578 file group is empty
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf71f8) locale list changing from [] to [en-US]
+E/HandwritingSuperpacksUtil( 8231): HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfa718) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf87d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf4638) locale list changing from [] to [en-US]
+I/HandwritingSuperpacks( 8231): HandwritingSuperpacks.reloadCache():237 updatePackMappingsCache(): pack mapping pack unavailable [OFFLINE]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf8e18) locale list changing from [] to [en-US]
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [] got for superpack: handwriting_recognition_offline
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c14cf8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c18218) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275befb38) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf52b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf9458) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bedf18) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf5f38) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf4318) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bffe98) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfc018) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bff858) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfb9d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf3698) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c19e38) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfdc38) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c15978) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c18538) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1c9f8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c17598) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c12778) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1b738) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bff218) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1e938) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1a798) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1a158) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c12458) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c21818) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf6898) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c191b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1e618) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf9778) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0fed8) locale list changing from [] to [en-US]
+I/MDDSuperpacks( 8231): MDDSuperpacks.getPacks():548 getting packs for superpack: handwriting_recognition
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0ad98) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0b6f8) locale list changing from [] to [en-US]
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0ba18) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0ccd8) locale list changing from [] to [en-US]
+E/TaskPersister(  686): File error accessing recents directory (directory doesn't exist?).
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfaa38) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0b3d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf3378) locale list changing from [] to [en-US]
+I/MDDSuperpacks( 8231): MDDSuperpacks$3.onSuccess():558 packs [transformer_latin_tflite_20231010_zip, scribe_latin_20231123_tflite_zip, qrnn_en_us_reco_20231010_fst_20230613_recospec_zip, transformer_latin_conf_tflite_20231010_zip, pack_mapping_v1_lstm_20231127, transformer_latin_seg_tflite_20231010_zip, scribe_latin_20231123_recospec_zip, en_us_20230613_compact_fst_zip] got for superpack: handwriting_recognition
+D/BackgroundInstallControlService(  686): Package event received: 0
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c10838) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c12a98) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c178b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c1d678) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf39b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0d958) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c114b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0d318) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c117d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c149d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0e2b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c05938) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0c378) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c08e58) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0f898) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0fbb8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c084f8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c08818) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c081d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04038) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04cb8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0a758) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04678) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04998) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c07558) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c02a58) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04fd8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c05f78) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c07878) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c07238) locale list changing from [] to [en-US]
+D/TileServices( 1126): Couldn't find tile for ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.focusmode.quicksettings.FocusModeTileService}(0)
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfe8b8) locale list changing from [] to [en-US]
+W/.apps.wellbeing( 8122): Suspending all threads took: 5.102ms
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf9138) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c036d8) locale list changing from [] to [en-US]
+W/Looper  (  686): Slow dispatch took 375ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d006b75 m=0
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/fusion.registry with errno 00000002 (No such file or directory)
+E/        (10954): Registry load failed because the file seems to be corrupted: Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/fusion.registry with errno 9 (Bad file descriptor)
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c165f8) locale list changing from [] to [en-US]
+W/Looper  (  686): Drained
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf87d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bfe8b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c07238) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c05f78) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c02a58) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c03d18) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04998) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c10518) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0a758) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04cb8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c05618) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c04678) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0ec18) locale list changing from [] to [en-US]
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/highscores.lua with errno 00000002 (No such file or directory)
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/settings.lua with errno 00000002 (No such file or directory)
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c08818) locale list changing from [] to [en-US]
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/bi_data.lua with errno 00000002 (No such file or directory)
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0f898) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0f258) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c08e58) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0fbb8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0e2b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c05938) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0d318) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c117d8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c114b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0f578) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf39b8) locale list changing from [] to [en-US]
+I/incfs-mounts( 8122): [incfs] Loaded incremental-fs mount info: 1 instances, 2 mount points
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0b0b8) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0d638) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c12a98) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275bf3378) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0dc78) locale list changing from [] to [en-US]
+I/.apps.wellbeing( 8122): AssetManager2(0x7b4275c0b3d8) locale list changing from [] to [en-US]
+D/GCMRegistrar(10954): resetting backoff for com.rovio.angrybirdsstarwars.ads.iap
+V/GCMRegistrar(10954): Registering app com.rovio.angrybirdsstarwars.ads.iap of senders 324550175651
+W/ActivityManager(  686): Unable to start service Intent { act=com.google.android.c2dm.intent.REGISTER xflg=0x4 pkg=com.google.android.gsf (has extras) } U=0: not found
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/gamepurchases.lua with errno 00000002 (No such file or directory)
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/eaglepurchases.lua with errno 00000002 (No such file or directory)
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/episodepurchases.lua with errno 00000002 (No such file or directory)
+E/SurfaceSyncGroup(10954): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[App]#1) as ready
+E/SurfaceSyncGroup(10954): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[App]#2) as ready
+W/ServiceManagerCppClient(  686): Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10217 pid=0
+D/PermissionCache(  686): checking android.permission.ACCESS_SURFACE_FLINGER for uid=10217 => denied (217 us)
+W/ServiceManagerCppClient(  686): Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10217 pid=0
+D/PermissionCache(  686): checking android.permission.ROTATE_SURFACE_FLINGER for uid=10217 => denied (148 us)
+W/ServiceManagerCppClient(  686): Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10217 pid=0
+D/PermissionCache(  686): checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10217 => denied (108 us)
+E/SurfaceSyncGroup(10954): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App]#0) as ready
+I/ActivityTaskManager(  686): Displayed com.rovio.angrybirdsstarwars.ads.iap/com.rovio.fusion.App for user 0: +2s701ms
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system/framework/com.android.location.provider.jar
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system/framework/com.android.media.remotedisplay.jar
+D/nativeloader(10954): Configuring clns-10 for other apk /system_ext/framework/com.android.extensions.appfunctions.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/data/app/~~-a1UJnPHeAjv-zwXWouL-A==/com.google.android.gms-hPQ7yk0LfRnmZc7Hv_ORaQ==/lib/x86_64:/data/app/~~-a1UJnPHeAjv-zwXWouL-A==/com.google.android.gms-hPQ7yk0LfRnmZc7Hv_ORaQ==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+W/FlurryAgent(10954): Flurry session started for context:com.rovio.fusion.App@242dd15
+W/FlurryAgent(10954): Flurry session resumed for context:com.rovio.fusion.App@242dd15
+D/DEBUG   (10954): ***** GameLua::prepareRovioChannel() *****
+D/nativeloader(10954): Configuring clns-11 for other apk /data/app/~~-a1UJnPHeAjv-zwXWouL-A==/com.google.android.gms-hPQ7yk0LfRnmZc7Hv_ORaQ==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~-a1UJnPHeAjv-zwXWouL-A==/com.google.android.gms-hPQ7yk0LfRnmZc7Hv_ORaQ==/lib/x86_64:/data/app/~~-a1UJnPHeAjv-zwXWouL-A==/com.google.android.gms-hPQ7yk0LfRnmZc7Hv_ORaQ==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bf7b58) locale list changing from [] to [en-US]
+D/BackgroundInstallControlService(  686): Package event received: 0
+W/WindowOnBackDispatcher( 1126): sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@787fe76
+D/CoreBackPreview(  686): Window{491f6f7 u0 Splash Screen com.rovio.angrybirdsstarwars.ads.iap EXITING}: Setting back callback null
+D/FileUtils(  686): Rounded bytes from 4110139392 to 8000000000
+D/BackgroundInstallControlService(  686): Package event received: 0
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+W/System  ( 1126): A resource failed to call release. 
+D/DEBUG   (10954): Customer string: googleplay
+W/InteractionJankMonitor(10954): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.rovio.angrybirdsstarwars.ads.iap
+W/FlurryAgent(10954): Event count started: Customer String
+D/DEBUG   (10954): specific Android device model: sdk_gphone64_x86_64
+D/AudioSystem(10954): onNewService: media.audio_policy service obtained 0x7b4295ef2240
+D/AudioSystem(10954): getService: checking for service media.audio_policy: 0x7b4295ef2240
+D/AudioSystem(10954): onNewServiceWithAdapter: media.audio_flinger service obtained 0x7b40f5c26490
+D/AudioSystem(10954): getService: checking for service media.audio_flinger: 0x7b4295ef2920
+D/NativePermissionController(  546): checkPermission: missing 1 for 10217
+D/NativePermissionController(  546): checkPermission: missing 3 for 10217
+D/NativePermissionController(  546): checkPermission: missing 5 for 10217
+W/AudioFlinger(  546): createTrack_l(): mismatch between requested flags (00000008) and output flags (00000002)
+D/AudioFlinger(  546): Client defaulted notificationFrames to 2048 for frameCount 4096
+I/AF::PthrPatchRecord(  546): creating track with enforcement level 0
+W/AudioTrack(10954): Use of stream types is deprecated for operations other than volume control
+W/AudioTrack(10954): See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/AppOps  (  686): attributionTag  not declared in manifest of com.rovio.angrybirdsstarwars.ads.iap
+D/NativePermissionController(  546): checkPermission: missing 13 for 10217
+D/NativePermissionController(  546): checkPermission: missing 13 for 10217
+D/NativePermissionController(  546): checkPermission: missing 13 for 10217
+D/NativePermissionController(  546): checkPermission: missing 13 for 10217
+I/MediaFocusControl(  686): abandonAudioFocus() from uid/pid 10217/10954 clientId=android.media.AudioManager@82cbac1 callingPack=com.rovio.angrybirdsstarwars.ads.iap
+E/FrameTracker( 1126): force finish cuj, time out: J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed App frame:JANK_APPLICATION, 94286, 54238380, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed App frame:UNKNOWN: 3, 94315, 189955014, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed SF frame:UNKNOWN: 3, 94315, 189955014, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed App frame:UNKNOWN: 3, 94337, 243936548, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed SF frame:UNKNOWN: 3, 94337, 243936548, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed App frame:UNKNOWN: 3, 94345, 298106816, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed SF frame:UNKNOWN: 3, 94345, 298106816, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed App frame:UNKNOWN: 3, 94443, 229482422, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+W/FrameTracker( 1126): Missed SF frame:UNKNOWN: 3, 94443, 229482422, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+D/GooglePlayPaymentProvider(10954): bindToService()
+D/BackgroundInstallControlService(  686): Package event received: 0
+D/BackgroundInstallControlService(  686): Package event received: 0
+D/GooglePlayPaymentProvider(10954): onServiceConnected()
+W/Finsky  ( 8200): [59] com.rovio.angrybirdsstarwars.ads.iap: No account found.
+I/Finsky  ( 8200): [58] Billing preferred account via installer for com.rovio.angrybirdsstarwars.ads.iap: [dCNOmK_nSY-12vHzasLXiswzlGT5UHA7jAGYkvmCuQs]
+E/GooglePlayPaymentProvider(10954): IABv6 not supported, response: 3
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(37)
+W/io      (10954): Failed to open /data/user/0/com.rovio.angrybirdsstarwars.ads.iap/files/DiskCache/CrossPromotion/catalog.json with errno 00000002 (No such file or directory)
+I/AidlLazyServiceRegistrar(10922): Process has 0 (of 2 available) client(s) in use after notification android.system.virtualizationmaintenance has clients: 0
+I/AidlLazyServiceRegistrar(10922): Trying to shut down the service. No clients in use for any service in process.
+I/AidlLazyServiceRegistrar(10922): Unregistered all clients and exiting
+E/GooglePlay(10954): Billing is not supported
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(31)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10150} in 6ms
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={20150} in 4ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bf3698) locale list changing from [] to [en-US]
+I/WebViewFactory(10954): Loading com.google.android.webview version 133.0.6943.137 (code 694313738)
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275c01158) locale list changing from [] to [en-US]
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275c01ab8) locale list changing from [] to [en-US]
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bffb78) locale list changing from [] to [en-US]
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bfe598) locale list changing from [] to [en-US]
+V/ResourcesManager(10954): The following library key has been added: ResourcesKey{ mHash=c1a236b8 mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/WebViewGoogle.apk,/data/app/~~7YxgYcf42KvoGMY_Q6UK5w==/com.google.android.trichromelibrary_694313738-V-uFeCtWe4DOv8xLci3UiQ==/TrichromeLibrary.apk,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v36 mCompatInfo={420dpi always-compat} mLoaders=[]}
+W/tarwars.ads.iap(10954): Failed to find entry 'classes.dex': Entry not found
+D/nativeloader(10954): Configuring clns-12 for other apk /data/app/~~7YxgYcf42KvoGMY_Q6UK5w==/com.google.android.trichromelibrary_694313738-V-uFeCtWe4DOv8xLci3UiQ==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/lib/x86_64:/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~7YxgYcf42KvoGMY_Q6UK5w==/com.google.android.trichromelibrary_694313738-V-uFeCtWe4DOv8xLci3UiQ==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+D/ApplicationLoaders(10954): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/nativeloader(10954): Configuring clns-13 for other apk /data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/lib/x86_64:/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~7YxgYcf42KvoGMY_Q6UK5w==/com.google.android.trichromelibrary_694313738-V-uFeCtWe4DOv8xLci3UiQ==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+I/cr_WVCFactoryProvider(10954): version=133.0.6943.137 (694313738) minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bf7518) locale list changing from [] to [en-US]
+D/nativeloader(10954): Load /data/app/~~7YxgYcf42KvoGMY_Q6UK5w==/com.google.android.trichromelibrary_694313738-V-uFeCtWe4DOv8xLci3UiQ==/TrichromeLibrary.apk!/lib/x86_64/libmonochrome_64.so using class loader ns clns-13 (caller=/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/WebViewGoogle.apk): ok
+D/nativeloader(10954): Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-13 (caller=/data/app/~~USIDnm2x--nQdMqyczlE_A==/com.google.android.webview-lUshnW7oLCFChrAUvs3MSA==/WebViewGoogle.apk): ok
+I/chromium(10954): [1015/051402.760425:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+I/chromium(10954): [1015/051402.761162:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+D/BackgroundInstallControlService(  686): Package event received: 0
+D/ActivityManager(  686): sync unfroze 4319 com.google.android.webview:webview_service for 6
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+D/BackgroundInstallControlService(  686): Package event received: 0
+D/ActivityThread( 4319): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 4319): Package [com.rovio.angrybirdsstarwars.ads.iap] reported as REPLACED, but missing application info. Assuming REMOVED.
+I/cr_LibraryLoader(10954): Successfully loaded native library
+I/cr_CachingUmaRecorder(10954): Flushed 6 samples from 6 histograms, 0 samples were dropped.
+I/cr_CombinedPProvider(10954): #registerProvider() provider:WV.C8@feff01c isPolicyCacheEnabled:false policyProvidersSize:0
+I/cr_PolicyProvider(10954): #setManagerAndSource() 0
+V/GrammaticalInflectionUtils(  686): AttributionSource: android.content.AttributionSource@d5f7b206 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+D/Zygote  ( 1189): Forked child process 11014
+I/ocessService0:0(11014): Using CollectorTypeCMC GC.
+W/ocessService0:0(11014): Unexpected CPU variant for x86: x86_64.
+W/ocessService0:0(11014): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+I/cr_CombinedPProvider(10954): #linkNativeInternal() 1
+I/cr_AppResProvider(10954): #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+I/cr_PolicyProvider(10954): #notifySettingsAvailable() 0
+I/cr_CombinedPProvider(10954): #onSettingsAvailable() 0
+I/cr_CombinedPProvider(10954): #flushPolicies()
+E/ocessService0:0(11014): Not starting debugger since process cannot load the jdwp agent.
+D/nativeloader(11014): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+I/ActivityManager(  686): Start proc 11014:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i10 for  {com.rovio.angrybirdsstarwars.ads.iap/org.chromium.content.app.SandboxedProcessService0:0}
+I/ActivityManager(  686): ProcessObserver broadcast disabled
+D/BoundBrokerSvc( 8997): onBind: Intent { act=com.google.android.gms.safetynet.service.START xflg=0x4 pkg=com.google.android.gms }
+D/BoundBrokerSvc( 8997): Loading bound service for intent: Intent { act=com.google.android.gms.safetynet.service.START xflg=0x4 pkg=com.google.android.gms }
+D/CompatChangeReporter(11014): Compat change id reported: 242716250; UID 99010; state: ENABLED
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bffe98) locale list changing from [] to [en-US]
+I/tarwars.ads.iap(10954): AssetManager2(0x7b4275bfc338) locale list changing from [] to [en-US]
+D/ApplicationLoaders(11014): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+I/ocessService0:0(11014): AssetManager2(0x7b4275befb38) locale list changing from [] to [en-US]
+I/LoadedApk(11014): No resource references to update in package com.google.android.trichromelibrary
+I/cr_WebViewApkApp(11014): version=133.0.6943.137 (694313738) minSdkVersion=29 isBundle=false processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+D/BackgroundInstallControlService(  686): Package event received: 0
+I/cr_ChildProcessService(11014): Creating new ChildProcessService pid=11014
+D/BackgroundInstallControlService(  686): Package event received: 0
+I/CameraManagerGlobal(10954): Connecting to camera service
+I/AttributionAndPermissionUtils(  597): checkPermission (forDataDelivery 0 startDataDelivery 0): Permission hard denied for client attribution [uid 10217, pid 10954, packageName "<unknown>"]
+D/BoundBrokerSvc( 8997): onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+I/absw    (10954): guest dlopen(libc.so)
+I/absw    (10954): guest dlopen(libc.so)
+W/FileUtils(  686): Failed to chmod(AtomicFile[/data/system_de/0/system/game-manager-service.xml]): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+D/BoundBrokerSvc( 8997): onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+D/AF::Track(  546): interceptBuffer: took 2540us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AF::Track(  546): interceptBuffer: took 1833us to intercept 0 tracks
+D/ActivityManager(  686): freezing 3852 com.google.android.documentsui
+D/ActivityManager(  686): freezing 10894 com.android.externalstorage
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10103} in 1ms
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10102} in 1ms
+D/ActivityManager(  686): freezing 3597 com.android.chrome
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10150} in 2ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/ActivityManager(  686): freezing 2053 android.process.media
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10101} in 2ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/ActivityManager(  686): freezing 3528 com.google.android.packageinstaller
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10106} in 2ms
+W/ssioncontroller( 1129): Reducing the number of considered missed Gc histogram windows from 111 to 100
+I/keystore2(  249): system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+D/ActivityManager(  686): freezing 7004 com.android.vending:background
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(21)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10165} in 2ms
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={20165} in 1ms
+D/BackgroundInstallControlService(  686): Package event received: 0
+E/BluetoothPowerStatsCollector(  686): Cannot acquire BluetoothActivityEnergyInfo
+E/BluetoothPowerStatsCollector(  686): java.util.concurrent.ExecutionException: java.lang.RuntimeException: error: 11
+E/BluetoothPowerStatsCollector(  686): 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:372)
+E/BluetoothPowerStatsCollector(  686): 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+E/BluetoothPowerStatsCollector(  686): 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectBluetoothActivityInfo(BluetoothPowerStatsCollector.java:192)
+E/BluetoothPowerStatsCollector(  686): 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectStats(BluetoothPowerStatsCollector.java:155)
+E/BluetoothPowerStatsCollector(  686): 	at com.android.server.power.stats.PowerStatsCollector.collectAndDeliverStats(PowerStatsCollector.java:176)
+E/BluetoothPowerStatsCollector(  686): 	at com.android.server.power.stats.PowerStatsCollector$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.Handler.handleCallback(Handler.java:995)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.Handler.dispatchMessage(Handler.java:103)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.Looper.loopOnce(Looper.java:248)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.Looper.loop(Looper.java:338)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+E/BluetoothPowerStatsCollector(  686): Caused by: java.lang.RuntimeException: error: 11
+E/BluetoothPowerStatsCollector(  686): 	at com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onBluetoothActivityEnergyInfoAvailable$0(BluetoothAdapter.java:1037)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.BluetoothUtils.lambda$executeFromBinder$0(BluetoothUtils.java:343)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.BluetoothUtils$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+E/BluetoothPowerStatsCollector(  686): 	at com.android.server.SystemServerInitThreadPool$$ExternalSyntheticLambda0.execute(R8$$SyntheticClass:0)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.BluetoothUtils.executeFromBinder(BluetoothUtils.java:343)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onBluetoothActivityEnergyInfoAvailable(BluetoothAdapter.java:1035)
+E/BluetoothPowerStatsCollector(  686): 	at android.bluetooth.IBluetoothActivityEnergyInfoListener$Stub.onTransact(IBluetoothActivityEnergyInfoListener.java:98)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+E/BluetoothPowerStatsCollector(  686): 	at android.os.Binder.execTransact(Binder.java:1365)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/BoundBrokerSvc( 8997): onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+I/Finsky  ( 8200): [2] SCH: job service start with id 9296.
+I/Finsky  ( 8200): [206] SCH: Satisfied jobs for 9296 are: 12-1
+I/Finsky  ( 8200): [217] SCH: Job 12-1 starting
+I/Finsky  ( 8200): [2] WM::SCH: Logging work start for 12-1
+I/Finsky  ( 8200): [2] [ContentSync] job started
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/WifiConfigStore(  686): Writing to stores completed in 80 ms.
+I/android.vending( 8200): IncrementDisableThreadFlip blocked for 32.065ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+E/Finsky  ( 8200): [221] [Counters] attempted to use a non-positive increment for: 9200
+I/Finsky  ( 8200): [221] App states replicator found 5 unowned apps
+I/Finsky  ( 8200): [61] Completed 0 account content syncs with 0 successful.
+I/Finsky  ( 8200): [2] [ContentSync] Installation state replication succeeded.
+I/Finsky  ( 8200): [2] SCH: jobFinished: 12-1. TimeElapsed: 263ms.
+I/Finsky  ( 8200): [2] WM::SCH: Logging work end for 12-1
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+I/Finsky  ( 8200): [60] SCH: Scheduling phonesky job Id: 1-1337, CT: 1792039957487, Constraints: [{ L: 31454634, D: 74654634, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+I/Finsky  ( 8200): [58] SCH: Scheduling 1 system job(s)
+I/Finsky  ( 8200): [58] SCH: Scheduling system job Id: 9305, L: 30160310, D: 73360310, C: false, I: false, N: 1
+I/Finsky  ( 8200): [217] SCH: job service finished with id 9296.
+D/AF::Track(  546): interceptBuffer: took 1075us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(19)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AF::Track(  546): interceptBuffer: took 2816us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(12)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/ActivityManager(  686): freezing 4319 com.google.android.webview:webview_service
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10165} in 2ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AF::Track(  546): interceptBuffer: took 2009us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(57)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(21)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(31)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(18)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/ActivityManager(  686): freezing 1129 com.google.android.permissioncontroller
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={10209} in 3ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(36)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(13)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(18)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(13)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(47)
+D/BoundBrokerSvc( 8997): onUnbind: Intent { act=com.google.android.gms.safetynet.service.START xflg=0x4 pkg=com.google.android.gms }
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(21)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/ApfFilter( 1229): (wlan0): Ignoring RA RA fe80::2 -> ff02::1 1800s fec0::/64 86400s/14400s DNS 1200000s fec0::3  which matches RA fe80::2 -> ff02::1 1800s fec0::/64 86400s/14400s DNS 1200000s fec0::3 
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(35)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(17)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AF::Track(  546): interceptBuffer: took 7074us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AF::Track(  546): interceptBuffer: took 502us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AF::Track(  546): interceptBuffer: took 789us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioAnalytics(  602): gc(1700, 2000): log size:1700 item map size:14, item map items:1700
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(20)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(31)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(21)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+W/ocessService0:0(11014): Suspending all threads took: 12.896ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(67)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AF::Track(  546): interceptBuffer: took 1112us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(23)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(25)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(42)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AF::Track(  546): interceptBuffer: took 5936us to intercept 0 tracks
+W/AS.PlaybackActivityMon(  686): No piid assigned for invalid/internal port id 16
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(43)
+I/tarwars.ads.iap(10954): Background concurrent mark compact GC freed 3216KB AllocSpace bytes, 12(492KB) LOS objects, 49% free, 2696KB/5392KB, paused 1.981ms,29.939ms total 114.106ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(25)
+W/Looper  (  686): Slow dispatch took 293ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d006b75 m=0
+W/Looper  (  686): Slow delivery took 347ms android.ui app=system_server main=false group=TOP_APP h=com.android.internal.app.AlertController$ButtonHandler c=null m=-1
+W/WindowOnBackDispatcher(  686): sendCancelIfRunning: isInProgress=false callback=android.app.Dialog$$ExternalSyntheticLambda2@e8fff17
+D/CoreBackPreview(  686): Window{f67d179 u0 DeprecatedTargetSdkVersionDialog}: Setting back callback null
+D/AF::Track(  546): interceptBuffer: took 3687us to intercept 0 tracks
+D/HWUI    (  686): endAllActiveAnimators on 0x7b4245c618c0 (RippleDrawable) with handle 0x7b40f5d1a2d0
+W/Looper  (  686): Slow dispatch took 118ms android.ui app=system_server main=false group=TOP_APP h=com.android.internal.app.AlertController$ButtonHandler c=null m=1
+W/Looper  (  686): Drained
+V/WindowManager(  686): Unknown focus tokens, dropping reportFocusChanged
+I/ImeTracker(  686): com.rovio.angrybirdsstarwars.ads.iap:7184215e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+D/InsetsController(10954): hide(ime(), fromIme=false)
+I/ImeTracker(10954): com.rovio.angrybirdsstarwars.ads.iap:7184215e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(51)
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onFinishInput():2043 
+I/Module  ( 8231): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+I/GoogleInputMethodService( 8231): GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.rovio.angrybirdsstarwars.ads.iap, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+I/EmojiCompatManager( 8231): EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+I/EmojiCompatManager( 8231): java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+I/EmojiCompatManager( 8231): 	at asx.p(PG:6)
+I/EmojiCompatManager( 8231): 	at axb.b(PG:13)
+I/EmojiCompatManager( 8231): 	at jnr.b(PG:2)
+I/EmojiCompatManager( 8231): 	at jnr.c(PG:4)
+I/EmojiCompatManager( 8231): 	at jnr.f(PG:3)
+I/EmojiCompatManager( 8231): 	at jnx.c(PG:3)
+I/EmojiCompatManager( 8231): 	at kif.cz(PG:47)
+I/EmojiCompatManager( 8231): 	at lhl.run(PG:1025)
+I/EmojiCompatManager( 8231): 	at jaf.execute(PG:12)
+I/EmojiCompatManager( 8231): 	at nco.v(PG:13)
+I/EmojiCompatManager( 8231): 	at lhn.m(PG:96)
+I/EmojiCompatManager( 8231): 	at lhn.k(PG:25)
+I/EmojiCompatManager( 8231): 	at kgn.onStartInput(PG:250)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+I/EmojiCompatManager( 8231): 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+I/EmojiCompatManager( 8231): 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+I/EmojiCompatManager( 8231): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+I/EmojiCompatManager( 8231): 	at android.os.Looper.loopOnce(Looper.java:248)
+I/EmojiCompatManager( 8231): 	at android.os.Looper.loop(Looper.java:338)
+I/EmojiCompatManager( 8231): 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+I/EmojiCompatManager( 8231): 	at java.lang.reflect.Method.invoke(Native Method)
+I/EmojiCompatManager( 8231): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+I/EmojiCompatManager( 8231): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+I/Module  ( 8231): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+W/PackageConfigPersister(  686): App-specific configuration not found for packageName: com.rovio.angrybirdsstarwars.ads.iap and userId: 0
+I/InputMethodEntryManager( 8231): InputMethodEntryManager.clearTemporarilyEnabledLanguages():2071 temporarilyEnabledEntryTuples []
+I/ImeTracker(  686): system_server:6f3cf6cc: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+I/ImeTracker(  686): system_server:6f3cf6cc: onCancelled at PHASE_SERVER_SHOULD_HIDE
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(37)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(31)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(14)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(22)
+W/screencap(11066): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+W/BpBinder(11066): Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+W/ProcessState(11066): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+E/HwcComposer(  550): getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+E/HWComposer(  550): getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/ActivityManager(  686): freezing 1947 com.android.keychain
+D/ActivityManager(  686): freezing 1333 com.android.settings
+D/ActivityManager(  686): freezing 4063 com.android.dynsystem:dynsystem
+D/ActivityManager(  686): freezing 4048 com.android.dynsystem
+D/ActivityManager(  686): freezing 2188 com.android.localtransport
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AF::Track(  546): interceptBuffer: took 782us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AF::Track(  546): interceptBuffer: took 1087us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AF::Track(  546): interceptBuffer: took 820us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AF::Track(  546): interceptBuffer: took 1593us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AF::Track(  546): interceptBuffer: took 1055us to intercept 0 tracks
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(96)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(56)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+I/JobServiceContext(  686): Letting dfa5e1c {androidx.work.systemjobscheduler} #u0a145/1021 @androidx.work.systemjobscheduler@com.google.android.apps.messaging/androidx.work.impl.background.systemjob.SystemJobService continue to run past min execution time
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(23)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+I/bbax    ( 1803): (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+W/IPCThreadState(  686): Sending oneway calls to frozen process.
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AF::Track(  546): interceptBuffer: took 588us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(25)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/BoundBrokerSvc( 8997): onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AF::Track(  546): interceptBuffer: took 11610us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AF::Track(  546): interceptBuffer: took 661us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/ActivityManager(  686): sync unfroze 1947 com.android.keychain for 10
+D/ActivityManager(  686): sync unfroze 1333 com.android.settings for 10
+D/ActivityManager(  686): sync unfroze 4063 com.android.dynsystem:dynsystem for 10
+D/ActivityManager(  686): sync unfroze 4048 com.android.dynsystem for 10
+D/ActivityManager(  686): sync unfroze 2188 com.android.localtransport for 10
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(12)
+D/AF::Track(  546): interceptBuffer: took 807us to intercept 0 tracks
+D/AF::Track(  546): interceptBuffer: took 586us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(17)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AF::Track(  546): interceptBuffer: took 702us to intercept 0 tracks
+D/AF::Track(  546): interceptBuffer: took 8580us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(14)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(41)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(38)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(19)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(18)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/ActivityManager(  686): freezing 9517 com.google.android.gms.ui
+D/ActivityManager(  686): freezing 9570 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(30)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(29)
+D/AF::Track(  546): interceptBuffer: took 589us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(13)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(14)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(19)
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+D/InetDiagMessage(  686): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+D/InetDiagMessage(  686): Destroyed live tcp sockets for uids={99006} in 2ms
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(52)
+W/screencap(11111): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+W/BpBinder(11111): Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+W/ProcessState(11111): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+E/HwcComposer(  550): getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+E/HWComposer(  550): getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(106)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(35)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(12)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AF::Track(  546): interceptBuffer: took 570us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(50)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(52)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(37)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(56)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(24)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioAnalytics(  602): gc(1700, 2000): log size:1700 item map size:13, item map items:1700
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AF::Track(  546): interceptBuffer: took 14474us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AF::Track(  546): interceptBuffer: took 668us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(6)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/WifiNl80211Manager(  686): Scan result ready event
+D/WifiNative(  686): Scan result ready event
+I/WifiScanner( 8997): onFullResults
+I/WifiScanner( 8997): onFullResults
+I/HalDevMgr(  686): bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(20)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(17)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(19)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AF::Track(  546): interceptBuffer: took 7179us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(25)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AF::Track(  546): interceptBuffer: took 713us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(14)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/SatelliteController( 1293): iisInCarrierRoamingNbIotNtn: satellite is disabled
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(15)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(10)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(3)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(2)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(22)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(17)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(29)
+D/AF::Track(  546): interceptBuffer: took 610us to intercept 0 tracks
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(25)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(5)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(11)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(12)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(7)
+D/ActivityManager(  686): freezing 1947 com.android.keychain
+D/ActivityManager(  686): freezing 1333 com.android.settings
+D/ActivityManager(  686): freezing 4063 com.android.dynsystem:dynsystem
+D/ActivityManager(  686): freezing 4048 com.android.dynsystem
+D/ActivityManager(  686): freezing 2188 com.android.localtransport
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(42)
+W/screencap(11121): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+W/BpBinder(11121): Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+W/ProcessState(11121): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+E/HwcComposer(  550): getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+E/HWComposer(  550): getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(1)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(4)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(17)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(9)
+D/AudioFlinger(  546): mixer(0x7496c7a46770) throttle end: throttle time(45)
+D/AF::Track(  546): interceptBuffer: took 863us to intercept 0 tracks
