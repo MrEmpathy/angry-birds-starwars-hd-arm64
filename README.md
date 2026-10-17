@@ -1,10 +1,101 @@
 # absw-engine
 
-Personal tooling to run **Angry Birds Star Wars 1.5.13** (your own APK) on 64-bit-only Android phones
+Tooling to run **Angry Birds Star Wars 1.5.13** on 64-bit-only Android phones
 such as the Galaxy S26 Ultra, whose CPUs cannot execute the game's 32-bit ARM engine.
 
-Nothing here contains Rovio code, assets or keys. The build reads them from your APK on your machine.
 Do not distribute the generated APK, `decoded-assets/` or `keystore/`.
+
+## Install on a phone
+
+You need a 64-bit Android phone with Android 8.0 or newer. The screenshots come from a Samsung Galaxy
+(One UI) with the Google Play Store; other phones have the same steps under similar names.
+
+### 1. Download the APK
+
+1. On the phone, open the **Releases** page of the backup repository (`angry-birds-starwars-hd-arm64`; you
+   need access to it) and open the latest release.
+2. Under **Assets**, tap the APK you want. The SD and HD games are separate apps and can be installed side
+   by side:
+
+   | File | Game | Unlocked |
+   | --- | --- | --- |
+   | `AngryBirdsStarWars-arm64.apk` | Angry Birds Star Wars (SD) | No |
+   | `AngryBirdsStarWars-arm64-unlocked.apk` | SD | Yes: all content |
+   | `AngryBirdsStarWarsHD-arm64.apk` | Angry Birds Star Wars HD | No |
+   | `AngryBirdsStarWarsHD-arm64-unlocked.apk` | HD | Yes: paid content only |
+
+   The unlocked builds are described under [Unlocked builds](#unlocked-builds) (SD) and
+   [Angry Birds Star Wars HD](#angry-birds-star-wars-hd) (HD) below.
+3. Wait until the download finishes (about 43 MB for SD, 46 MB for HD).
+
+### 2. Remove copies from other sources
+
+Android installs an APK over an installed app only when both are signed with the same key. All builds
+from this project share one key, so the normal and unlocked builds of a game replace each other and keep
+the progress. If the phone has the same game from somewhere else (Google Play, another website), uninstall
+it first: **Settings > Apps > Angry Birds > Uninstall**. Uninstalling deletes that copy's progress.
+
+### 3. Turn off the manufacturer's blocker (Samsung Auto Blocker)
+
+Auto Blocker only allows apps from the Play Store or the Galaxy Store, and it also blocks commands over USB.
+
+1. Open **Settings > Security and privacy > Auto Blocker**.
+2. Turn it **Off**.
+3. Leave **Turn on automatically** on, so that Auto Blocker turns itself back on after 30 minutes.
+
+<img src="docs/install/samsung-auto-blocker.jpg" alt="Auto Blocker turned off, with Turn on automatically still on" width="300">
+
+On other brands, if the installer says that a security feature blocked the app, look for a similar
+option under **Settings > Security**.
+
+### 4. Turn off Play Protect scanning
+
+Play Protect can block apps that did not come from the Play Store.
+
+1. Open the **Play Store**, tap your profile picture (top right), then tap **Play Protect**.
+
+   <img src="docs/install/play-store-menu.jpg" alt="Play Store menu with the Play Protect entry" width="300">
+
+2. Tap the gear icon (top right) to open **Play Protect settings**.
+3. Turn off **Scan apps with Play Protect**. Turning off **Improve harmful app detection** as well keeps
+   the phone from uploading the APK to Google.
+
+   <img src="docs/install/play-protect-settings.jpg" alt="Play Protect settings with both switches" width="300">
+
+If you leave scanning on and Play Protect shows a warning while installing, tap **More details** and then
+**Install anyway**.
+
+### 5. Install the APK
+
+1. Open the downloaded file from the browser's downloads or the **Files** app.
+2. The first time, Android says that this source is not allowed to install unknown apps. Tap **Settings**,
+   turn on **Allow from this source**, and go back.
+3. Tap **Install**. Both games appear on the home screen as **Angry Birds**.
+
+### 6. First start
+
+- Android may say that the app was built for an older version of Android. Tap **OK**: this is expected
+  for these old games.
+- Android may also show a one-time hint about full screen mode. Tap **Got it**.
+
+### 7. Turn the protections back on
+
+- **Play Store > profile picture > Play Protect > gear icon**: turn **Scan apps with Play Protect** back on.
+- Auto Blocker turns itself back on after 30 minutes if **Turn on automatically** stayed on. Otherwise
+  turn it on again in **Settings > Security and privacy > Auto Blocker**.
+
+### Updating
+
+Download the newer APK and repeat steps 3 to 5. The new build replaces the old one and keeps your progress.
+
+### Troubleshooting
+
+- **App not installed** or **package conflicts with an existing package**: a copy signed with another key
+  is installed. See step 2.
+- **There was a problem parsing the package**: the download is incomplete. Download the APK again.
+- The games need a 64-bit phone. Phones that can still run 32-bit apps can use the original games instead.
+- To report a crash, connect the phone to a computer with USB debugging on and run `adb logcat -d > log.txt`
+  right after the crash. Auto Blocker must be off, because it blocks USB commands.
 
 ## How it works
 
@@ -45,6 +136,8 @@ iPad screens:
   overflowed on wide phones.
 - `menus/EpisodeButton.lua`: the planet score panel keeps the phone font scale. Before, it applied the
   x0.4 iPad-Retina shrink to any screen at least 2000 px wide.
+
+### Unlocked builds
 
 `bridge/lua-unlocked/game.lua` is only applied by `make_release.sh unlocked`, which writes
 `dist/AngryBirdsStarWars-arm64-unlocked.apk`. Each time the game starts, it marks the paid episodes
