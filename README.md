@@ -1,9 +1,8 @@
 # absw-engine
 
-Personal tooling to run **Angry Birds Star Wars 1.5.13** (your own APK) on 64-bit-only Android phones
+Tooling to run **Angry Birds Star Wars 1.5.13** on 64-bit-only Android phones
 such as the Galaxy S26 Ultra, whose CPUs cannot execute the game's 32-bit ARM engine.
 
-Nothing here contains Rovio code, assets or keys. The build reads them from your APK on your machine.
 Do not distribute the generated APK, `decoded-assets/` or `keystore/`.
 
 ## How it works
