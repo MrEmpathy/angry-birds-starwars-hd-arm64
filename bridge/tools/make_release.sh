@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Build the phone APK: arm64 bridge + Lua display patches, signed with the local keystore.
 # Usage (Git Bash on Windows): make_release.sh [unlocked|hd|hd-unlocked]
-#   unlocked:    also apply bridge/lua-unlocked (all content open, power-ups refilled on every launch)
+#   unlocked:    also apply bridge/lua-unlocked (all content open; power-ups and Falcons at 999, gains capped)
 #                and write dist/AngryBirdsStarWars-arm64-unlocked.apk instead of the stable APK.
 #   hd:          Angry Birds Star Wars HD from original/angry_birds_sw_hd.apk, unmodified scripts,
 #                rendered at native resolution; writes dist/AngryBirdsStarWarsHD-arm64.apk.
-#   hd-unlocked: hd plus bridge/lua-paid (paid episodes owned, power-ups and Falcons at 999; progress untouched);
+#   hd-unlocked: hd plus bridge/lua-paid (paid episodes owned, power-ups and Falcons at 999 with gains capped; progress untouched);
 #                writes dist/AngryBirdsStarWarsHD-arm64-unlocked.apk.
 set -euo pipefail
 ROOT="/c/Users/nicox/Documents/absw-engine"

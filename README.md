@@ -49,9 +49,18 @@ iPad screens:
 `bridge/lua-unlocked/game.lua` is only applied by `make_release.sh unlocked`, which writes
 `dist/AngryBirdsStarWars-arm64-unlocked.apk`. Each time the game starts, it marks the paid episodes
 (Path of the Jedi, Boba Fett Missions) as purchased and opens every level, bonus levels included. It
-also sets the four power-ups (Blaster Droid, Lightsaber Sling, Thermal Detonator, Clone Bird) to 999,
-the largest count the HUD shows. The Millennium Falcon count is not changed. These changes are saved
-with the progress, so they remain if the stable APK is installed again.
+also sets the four power-ups (Blaster Droid, Lightsaber Sling, Thermal Detonator, Clone Bird) and the
+Millennium Falcon to 999, the largest count the HUD shows. As in the HD unlocked APK, both counts are
+capped at 999 (see the HD list below), so power-up gifts and Falcon rewards stop there. These changes are
+saved with the progress, so they remain if the stable APK is installed again.
+
+Checked on the Galaxy S26 Ultra on 2026-10-17, over the owner's save: the log line
+`[absw] unlocked: all episodes and levels; power-ups and Falcons at 999/999`, the Falcon at 999 in a
+level's HUD, 998 after calling the Falcon, and 999 again after a restart. Before the power-up cap, the
+power-up given at level start showed 1000 in the HUD of Tatooine 1-40 right after launch. With the cap
+it shows 999, and three level restarts keep every counter at or under 999. Using a power-up still
+lowers it to 998. Both unlocked APKs were repackaged with the bridge libraries of their previous builds,
+so only `game.lua` changed.
 
 `bridge/tools/make_release.sh` builds the phone APK with these patches. The packaging tools read
 `original/angry_birds_sw.apk`. If the original APK is lost, `tools/rebuild_base_apk.py` rebuilds an
@@ -91,6 +100,10 @@ through progress. Each time the game starts, the patch:
 - Caps `SettingsWrapper:addMightyEagles` at 999. That function is the only code that raises the Falcon
   count, so star rewards, level rewards and every other Falcon source stop at 999. Reward popups still
   show the full amount.
+- Caps `SettingsWrapper:setPowerUpAmount` at 999. Every power-up change goes through it:
+  `PowerupManager.addPowerUp` (the gift at level start, bundles, the power-up machine, video rewards,
+  refunds) and using a power-up (count - 1). So no gain goes past 999, and spending is unchanged.
+  Checked on the phone: 999 on every counter in Tatooine 1-3, also after two restarts.
 
 These stay as in the original game:
 
